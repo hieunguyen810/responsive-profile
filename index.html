@@ -15,7 +15,41 @@
     <body>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
-            
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Smith</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list"> 
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active_link">
+                                <i class='bx bx-home'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user'></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book'></i>Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt'></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt'></i>Experience
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
         </header>
 
         <main class="l-main bd-container">
@@ -24,33 +58,72 @@
                 <div class="resume__left">
                     <!--========== HOME ==========-->
                     <section class="home" id="home">
-                        
-                        <!-- Theme change button -->
-                        
-    
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="/assets/img/m4.jpg" alt="" class="home__img">
+                                <h1 class="home__title">NGUYEN TRI HIEU</h1>
+                                <h3 class="home__profession">Software Engineer</h3>
 
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="/assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+                            <div class="home__address bd-grid">
+                                <span class="home_information">
+                                    <i class="bx bx-map"></i> HCMC
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-envelope"></i> trihieu08101999@gmail.com
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-phone"></i> 0706987057
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
                     <section class="social section">
-                        
+                        <h2 class="section-title">SOCIAL</h2>
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/hi%E1%BA%BFu-nguy%E1%BB%85n-2825221a9/" class="social__link" target="_blank">
+                                <i class="bx bxl-linkedin-square"></i>Linkedin
+                            </a>
+                        </div>
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/hieunguyen810" class="social__link" target="_blank">
+                                <i class="bx bxl-github"></i>Github
+                            </a>
+                        </div>
                     </section>
 
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
-                        
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile__description">
+                            I am software engineer with 1 year experience in DevOps. I hold a Bachelor degree in Electrical and Electronics, but I passionate about technology. 
+                        </p>
                     </section>
                     
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
-                        
-                    </section>
-
-
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        
+                        <h2 class="section-title">EDUCATION</h2>
+                        <div class="education__container bd-grid">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachelor degree of Electrical and Electronics</h3>
+                                <span class="education__studies">Hochiminh city university of technology</span>
+                                <span class="education__year">2017-2021</span>
+                            </div>
+                        </div>
                     </section>
 
                 </div>
@@ -58,27 +131,103 @@
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
-                        
-                    </section>
+                        <h2 class="section-title">Experience</h2>
 
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience_rouder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">DevOps Engineer</h3>
+                                    <span class="experience__company">From 2-2021 to present | TMA Solutions</span>
+                                    <p class="experience__description">Work in ...</p>                                    
+                                </div>
+                            </div>
+                        </div>
                     </section>
-
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">SKILLS</h2>
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills_circle">HTML</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Python</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Spring Boot</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Java</span>
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills_circle">HTML</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Python</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Spring Boot</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills_circle">Java</span>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
-
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
-                        
+                        <h2 class="section-title">Languages</h2>
+
+                        <ul class="languages__content bd-grid">
+                            <l1 class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </l1>
+                            <l1 class="languages__name">
+                                <span class="languages__circle"></span> Vietnamese
+                            </l1>
+                            <l1 class="languages__name">
+                                <span class="languages__circle"></span> Japanese
+                            </l1>
+                        </ul>
                     </section>
                     
                     <!--========== INTERESTS ==========-->
                     <section class="interests section">
-                        
+                        <h2 class="secction-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-football interests__icon'></i>
+                                <span class="interests__name">Football</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-film interests__icon'></i>
+                                <span class="interests__name">Anime</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dish interests__icon'></i>
+                                <span class="interests__name">Cooking</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-edit-alt interests__icon'></i>
+                                <span class="interests__">Researching</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-fork interests__icon'></i>
+                                <span class="interests__name">Gardening</span>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>        
@@ -86,6 +235,9 @@
 
         <!--========== SCROLL TOP ==========-->
         
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
