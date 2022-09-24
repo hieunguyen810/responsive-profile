@@ -119,3 +119,69 @@ resumeButton.addEventListener('click', () => {
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
     setTimeout(removeScale, 5000)
 })
+
+// Change language
+const langEl = document.querySelector('.langWrap');
+const link = document.querySelectorAll('a');
+fetch("/assets/data.json")
+    .then(response => response.json())
+    .then(data => {
+        link.forEach(el => {
+            el.addEventListener('click', () => {
+                langEl.querySelector('.active').classList.remove('active');
+                el.classList.add('active');
+
+                const attr = el.getAttribute('language');
+
+                console.log(data.english.experience.tma.time)
+                document.querySelector(".name_nav").innerText = data[attr].name   
+                document.querySelector(".name_vn").innerText = data[attr].name_vn
+                document.querySelector(".address").innerText = data[attr].address
+                document.querySelector(".email").innerText = data[attr].email
+                document.querySelector(".phone").innerText = data[attr].phone
+                document.querySelector(".profile__description").innerText = data[attr].profile 
+                document.querySelector(".education__title").innerText = data[attr].education.degree
+                document.querySelector(".education__studies").innerText = data[attr].education.studies
+                document.querySelector(".education__year").innerText = data[attr].education.year
+                // Section
+                document.querySelector(".section-title-profile").innerText = data[attr].item[1]
+                document.querySelector(".section-title-education").innerText = data[attr].item[2]
+                document.querySelector(".section-title-skills").innerText = data[attr].item[3]
+                document.querySelector(".section-title-experience").innerText = data[attr].item[4]
+                document.querySelector(".section-title-languages").innerText = data[attr].item[5]
+                document.querySelector(".section-title-project").innerText = data[attr].item[6]
+                document.querySelector(".section-title-social").innerText = data[attr].item[7]
+                // Experiece
+                document.querySelector(".experience__company_1").innerText = data[attr].experience.vts.time
+                document.querySelector(".experience__description_1").innerText = data[attr].experience.vts.description
+                document.querySelector(".experience__tech_1").innerText = data[attr].experience.vts.tech
+                document.querySelector(".experience__detail_11").innerText = data[attr].experience.vts.detail[0]
+                document.querySelector(".experience__detail_12").innerText = data[attr].experience.vts.detail[1]
+                document.querySelector(".experience__detail_13").innerText = data[attr].experience.vts.detail[2]
+
+
+                document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
+                document.querySelector(".experience__description_2").innerText = data[attr].experience.tma.description
+                document.querySelector(".experience__tech_2").innerText = data[attr].experience.tma.tech
+                document.querySelector(".experience__detail_21").innerText = data[attr].experience.tma.detail[0]
+                document.querySelector(".experience__detail_22").innerText = data[attr].experience.tma.detail[1]
+                document.querySelector(".experience__detail_23").innerText = data[attr].experience.tma.detail[2]
+                // Project
+                document.querySelector(".project-1").innerText = data[attr].project[0]
+                document.querySelector(".project-2").innerText = data[attr].project[1]
+                document.querySelector(".project-3").innerText = data[attr].project[2]
+                document.querySelector(".project-4").innerText = data[attr].project[3]
+                document.querySelector(".project-5").innerText = data[attr].project[4]
+                // Languages
+                document.querySelector(".languages__circle_1").innerText = data[attr].language[0]
+                document.querySelector(".languages__circle_2").innerText = data[attr].language[1]
+                document.querySelector(".languages__circle_3").innerText = data[attr].language[2]
+                // Interests
+                document.querySelector(".interests__name_1").innerText = data[attr].interest[0]
+                document.querySelector(".interests__name_2").innerText = data[attr].interest[1]
+                document.querySelector(".interests__name_3").innerText = data[attr].interest[2]
+                document.querySelector(".interests__name_4").innerText = data[attr].interest[3]
+            })
+        }
+            )
+    })

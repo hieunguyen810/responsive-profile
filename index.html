@@ -6,17 +6,75 @@
 
         <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive resume cv</title>
     </head>
-    <body>
+    <body class="scale-cv">
+        <script>
+            fetch("assets/data.json")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data.english.item[1])
+                    document.querySelector(".name_nav").innerText = data.english.name   
+                    document.querySelector(".name_vn").innerText = data.english.name_vn
+                    document.querySelector(".address").innerText = data.english.address
+                    document.querySelector(".email").innerText = data.english.email
+                    document.querySelector(".phone").innerText = data.english.phone
+                    document.querySelector(".note").innerText = data.english.note
+                    document.querySelector(".profile__description").innerText = data.english.profile 
+                    document.querySelector(".education__title").innerText = data.english.education.degree
+                    document.querySelector(".education__studies").innerText = data.english.education.studies
+                    document.querySelector(".education__year").innerText = data.english.education.year
+                    // Experience
+                    document.querySelector(".experience__company_1").innerText = data.english.experience.vts.time
+                    document.querySelector(".experience__description_1").innerText = data.english.experience.vts.description
+                    document.querySelector(".experience__tech_1").innerText = data.english.experience.vts.tech
+                    document.querySelector(".experience__detail_11").innerText = data.english.experience.vts.detail[0]
+                    document.querySelector(".experience__detail_12").innerText = data.english.experience.vts.detail[1]
+                    document.querySelector(".experience__detail_13").innerText = data.english.experience.vts.detail[2]
+
+
+                    document.querySelector(".experience__company_2").innerText = data.english.experience.tma.time
+                    document.querySelector(".experience__description_2").innerText = data.english.experience.tma.description
+                    document.querySelector(".experience__tech_2").innerText = data.english.experience.tma.tech
+                    document.querySelector(".experience__detail_21").innerText = data.english.experience.tma.detail[0]
+                    document.querySelector(".experience__detail_22").innerText = data.english.experience.tma.detail[1]
+                    document.querySelector(".experience__detail_23").innerText = data.english.experience.tma.detail[2]
+
+                    // Section
+                    document.querySelector(".section-title-profile").innerText = data.english.item[1]
+                    document.querySelector(".section-title-education").innerText = data.english.item[2]
+                    document.querySelector(".section-title-skills").innerText = data.english.item[3]
+                    document.querySelector(".section-title-experience").innerText = data.english.item[4]
+                    document.querySelector(".section-title-languages").innerText = data.english.item[5]
+                    document.querySelector(".section-title-project").innerText = data.english.item[6]
+                    document.querySelector(".section-title-social").innerText = data.english.item[7]
+                    // Project 
+                    document.querySelector(".project-1").innerText = data.english.project[0]
+                    document.querySelector(".project-2").innerText = data.english.project[1]
+                    document.querySelector(".project-3").innerText = data.english.project[2]
+                    document.querySelector(".project-4").innerText = data.english.project[3]
+                    document.querySelector(".project-5").innerText = data.english.project[4]
+                    // Languages
+                    document.querySelector(".languages__circle_1").innerText = data.english.language[0]
+                    document.querySelector(".languages__circle_2").innerText = data.english.language[1]
+                    document.querySelector(".languages__circle_3").innerText = data.english.language[2]                 
+                    // Interests
+                    document.querySelector(".interests__name_1").innerText = data.english.interest[0]
+                    document.querySelector(".interests__name_2").innerText = data.english.interest[1]
+                    document.querySelector(".interests__name_3").innerText = data.english.interest[2]
+                    document.querySelector(".interests__name_4").innerText = data.english.interest[3]
+                    
+                })
+        </script>
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">NGUYEN TRI HIEU</a>
+                <a href="#" class="nav__logo"><p class="name_nav"></p></a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list"> 
                         <li class="nav__item">
@@ -60,25 +118,42 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="/assets/img/m4.jpg" alt="" class="home__img">
-                                <h1 class="home__title">NGUYEN TRI HIEU</h1>
-                                <h3 class="home__profession">Software Engineer</h3>
+                                <div class="langWrap">
+                                    <a href="#" language='english' class="active">
+                                        <img src="/assets/img/english.png" width="25" height="15">
+                                    </a>
+                                    <a href="#" language='vietnamese'>
+                                        <img src="/assets/img/vietnam.png" width="25" height="15">
+                                    </a>
+                                    <a href="#" language='japanese'>
+                                        <img src="/assets/img/japan.png" width="25" height="15">
+                                    </a>
+                                </div>
+                                <img src="/assets/img/me2.jpg" alt="" class="home__img">
+                                <h1 class="home__title"><p class="name_vn"></p></h1>
+                                <h3 class="home__profession"></h3>
 
                                 <!-- Button to generate and download the pdf. Available for desktop. -->
                                 <div>
-                                    <a download="" href="/assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                    <a download="" href="/assets/pdf/myResume.pdf" class="home__button-movil">Download</a>
                                 </div>
                             </div>
                             <div class="home__address bd-grid">
                                 <span class="home_information">
-                                    <i class="bx bx-map"></i> HCMC
+                                    <i class="bx bx-map"></i> <p class="address"></p>
                                 </span>
                                 <span class="home_information">
-                                    <i class="bx bx-envelope"></i> trihieu08101999@gmail.com
+                                    <i class="bx bx-envelope"></i> <p class="email"></p>
                                 </span>
                                 <span class="home_information">
-                                    <i class="bx bx-phone"></i> 0706987057
+                                    <i class="bx bx-phone"></i> <p class="phone"></p>
                                 </span>
+                                
+                                <span class="home_information">
+                                    <i class='bx bxs-right-arrow'></i>
+                                    <p class="note"></p>
+                                </span>
+                                <span>https://hieunguyen810.github.io/responsive-profile/</span>
                             </div>
                         </div>
                         <!-- Theme change button -->
@@ -89,7 +164,7 @@
                     
                     <!--========== SOCIAL ==========-->
                     <section class="social section">
-                        <h2 class="section-title">SOCIAL</h2>
+                        <h2 class="section-title-social"></h2>
                         <div class="social__container bd-grid">
                             <a href="https://www.linkedin.com/in/hi%E1%BA%BFu-nguy%E1%BB%85n-2825221a9/" class="social__link" target="_blank">
                                 <i class="bx bxl-linkedin-square"></i>Linkedin
@@ -97,41 +172,62 @@
                         </div>
                         <div class="social__container bd-grid">
                             <a href="https://github.com/hieunguyen810" class="social__link" target="_blank">
-                                <i class="bx bxl-github"></i>Github
+                                <i class="bx bxl-github"></i>Github (hieunguyen810)
                             </a>
                         </div>
                     </section>
 
                     <!--========== PROFILE ==========-->
                     <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
-                        <p class="profile__description">
-                            I am software engineer with 1 year experience in DevOps. I hold a Bachelor degree in Electrical and Electronics, but I passionate about technology. 
+                        <h2 class="section-title-profile"></h2>
+                        <p class="profile__description">                           
                         </p>
                     </section>
                     
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
-                        <h2 class="section-title">EDUCATION</h2>
+                        <h2 class="section-title-education"></h2>
                         <div class="education__container bd-grid">
                             <div class="education__time">
                                 <span class="education__rounder"></span>
                                 <span class="education__line"></span>
                             </div>
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Bachelor degree of Electronics and Telecommunications</h3>
-                                <span class="education__studies">Hochiminh city university of technology (BKU)</span>
-                                <span class="education__year">2017-2021</span>
+                                <h3 class="education__title"></h3>
+                                <span class="education__studies"></span>
+                                <span class="education__year"></span>
                             </div>
                         </div>
                     </section>
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title-interests">Interests</h2>
 
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-football interests__icon'></i>
+                                <span class="interests__name_1"></span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-film interests__icon'></i>
+                                <span class="interests__name_2"></span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dish interests__icon'></i>
+                                <span class="interests__name_3"></span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name_4"></span>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
                 <div class="resume__right">
                     <!--========== EXPERIENCE ==========-->
                     <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
+                        <h2 class="section-title-experience"></h2>
 
                         <div class="experience__container bd-grid">
                             <div class="experience__content">
@@ -139,113 +235,113 @@
                                     <span class="experience_rouder"></span>
                                     <span class="experience_line"></span>
                                 </div>
+                                <h3 class="experience__title">Software Engineer</h3>
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">DevOps Engineer</h3>
-                                    <span class="experience__company">From 2-2021 to present | TMA Solutions</span>
-                                    <p class="experience__description">Maintaining the application, releasing patches every 2 months to improve user experience, fix web vulnerabilities, ...
-                                        Release a new version of this application, develop a new feature.
-                                    </br>
-                                        Technologies: Java, Spring framework, Mysql, Vmware, Bash shell, RHEL, LDAP, JIRA, ...</p>                                    
+                                    <span class="experience__company_1"></span>
+                                    <p class="experience__description_1"></p> 
+                                    <!-- <i class='bx bx-star'></i> -->
+                                    <ul>
+                                        <li class="experience__detail_11"></li>
+                                        <li class="experience__detail_12"></li>
+                                        <li class="experience__detail_13"></li>
+                                    </ul>
+                                    <div class="experience__tech_1"></div>
+                                </div>
+                                <br>
+                                <h3 class="experience__title">Software Engineer</h3>
+                                <div class="experience__data bd-grid">
+                                    <span class="experience__company_2"></span>
+                                    <p class="experience__description_2"></p> 
+                                    <!-- <i class='bx bx-star'></i> -->
+                                    <ul>
+                                        <li class="experience__detail_21"></li>
+                                        <li class="experience__detail_22"></li>
+                                        <li class="experience__detail_23"></li>
+                                    </ul>
+                                    <div class="experience__tech_2"></div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <!--========== SKILLS  ==========-->
                     <section class="skills section" id="skills">
-                        <h2 class="section-title">SKILLS</h2>
+                        <h2 class="section-title-skills"></h2>
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills_circle">HTML/CSS</span>
-                                </li>
-                                <li class="skills__name">
+                                    <span class="iconify" data-icon="vscode-icons:file-type-python"></span>
                                     <span class="skills_circle">Python</span>
                                 </li>
                                 <li class="skills__name">
+                                    <span class="iconify" data-icon="logos:java"></span>
                                     <span class="skills_circle">Java</span>
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills_circle">MySQL</span>
+                                    <span class="iconify" data-icon="logos:tensorflow"></span>
+                                    <span class="skills_circle">Tensorflow</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="iconify" data-icon="logos:html-5"></span>
+                                    <span class="skills_circle">HTML/CSS</span>
                                 </li>
                             </ul>
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills_circle">Spring Boot</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="skills_circle">Spring Framework</span>
-                                </li>
-                                <li class="skills__name">
+                                    <span class="iconify" data-icon="logos:linux-tux"></span>
                                     <span class="skills_circle">Linux</span>
                                 </li>
                                 <li class="skills__name">
+                                    <i class='bx bx-bug'></i>
                                     <span class="skills_circle">Web Security</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="iconify" data-icon="logos:mysql"></span>
+                                    <span class="skills_circle">MySQL</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="iconify" data-icon="cib:spring"></span>
+                                    <span class="skills_circle">Spring Framework</span>
                                 </li>
                             </ul>
                         </div>
                     </section>
                     <!--========== PERSONAL PROJECT ==========-->
                     <section class="project section">
-                        <h2 class="section-title">Personal project</h2>
+                        <h2 class="section-title-project"></h2>
                         <div class="project__content">
                             <p>
-                                Thesis graduation: Signal demodulation with Machine learning in OLED Visible Light Communication
+                                <i class='bx bxs-star'></i>
+                                <div class="project-1"></div>
                             </br>
-                                Exam Marking
+                                <i class='bx bxs-star'></i>
+                                <div class="project-2"></div>
                             </br>
-                                Alcohol recognition based on ...
+                                <i class='bx bxs-star'></i>
+                                <div class="project-3"></div>
                             </br>
-                                Kanji recognition
+                                <i class='bx bxs-star'></i>
+                                <div class="project-4"></div>
+                            </br>
+                                <i class='bx bxs-star'></i>
+                                <div class="project-5"></div>
                             </p>
                         </div>
                     </section>
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
+                        <h2 class="section-title-languages"></h2>
 
                         <ul class="languages__content bd-grid">
                             <l1 class="languages__name">
-                                <span class="languages__circle"></span> English
+                                <span class="languages__circle_1"></span>
                             </l1>
                             <l1 class="languages__name">
-                                <span class="languages__circle"></span> Vietnamese
+                                <span class="languages__circle_2"></span>
                             </l1>
                             <l1 class="languages__name">
-                                <span class="languages__circle"></span> Japanese
+                                <span class="languages__circle_3"></span>
                             </l1>
                         </ul>
-                    </section>
-                    
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class='bx bx-football interests__icon'></i>
-                                <span class="interests__name">Football</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-film interests__icon'></i>
-                                <span class="interests__name">Anime</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-dish interests__icon'></i>
-                                <span class="interests__name">Cooking</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-book interests__icon'></i>
-                                <span class="interests__name">Reading</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-edit-alt interests__icon'></i>
-                                <span class="interests__name">Researching</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class='bx bx-fork interests__icon'></i>
-                                <span class="interests__name">Gardening</span>
-                            </div>
-                        </div>
                     </section>
                 </div>
             </div>        
@@ -256,7 +352,6 @@
         <a href="#" class="scrolltop" id="scroll-top">
             <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
         </a>
-
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
 

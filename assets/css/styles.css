@@ -2,6 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*===== VARIABLES CSS =====*/
+p, div
+{
+    display: inline;
+}
+br {
+    line-height: 7px;
+}
+li {
+  font-size: 14px;
+  margin-left: 40px;
+  list-style-type: circle;
+}
 :root {
   --header-height: 3rem;
   
@@ -29,7 +41,7 @@
   /*========== Margenes ==========*/
   --mb-1: .5rem;
   --mb-2: 1rem;
-  --mb-3: 1.5rem;
+  --mb-3: 1.2rem;
 
   /*========== z index ==========*/
   --z-tooltip: 10;
@@ -100,7 +112,8 @@ body.scale-cv{
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 
 .scale-cv .change-theme,
-.scale-cv .generate-pdf{
+.scale-cv .generate-pdf
+.scale-cv .langWrap{
   display: none;
 }
 
@@ -112,7 +125,15 @@ body.scale-cv{
   padding: 1.5rem 0 .8rem;
 }
 
-.scale-cv .section-title{
+.scale-cv .section-title-social,
+.scale-cv .section-title-profile,
+.scale-cv .section-title-education,
+.scale-cv .section-title-experience,
+.scale-cv .section-title-skills,
+.scale-cv .section-title-project,
+.scale-cv .section-title-languages,
+.scale-cv .section-title-interests
+{
   margin-bottom: .75rem;
 }
 
@@ -213,7 +234,15 @@ img {
 .section{
   padding: 1.5rem 0;
 }
-.section-title{
+
+.section-title-social,
+.section-title-profile,
+.section-title-education,
+.section-title-experience,
+.section-title-skills,
+.section-title-project,
+.section-title-languages,
+.section-title-interests {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -445,7 +474,8 @@ img {
 }
 
 .education__studies,
-.experience__company{
+.experience__company_1,
+.experience__company_2{
   font-size: var(--small-font-size);
   color:var(--title-color);
 }
@@ -486,14 +516,15 @@ img {
   margin-left: var(--mb-2);
 }
 
-.interests__content{
+.interests__content
+{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .interests__icon{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--text-color-light);
   margin-bottom: .25rem;
 }
@@ -560,7 +591,14 @@ img {
   padding: 0 1.5rem;
 }
 
-.section-title,
+.section-title-social,
+.section-title-profile,
+.section-title-education,
+.section-title-experience,
+.section-title-skills,
+.section-title-project,
+.section-title-languages,
+.section-title-interests,
 .profile__description{
   text-align: initial;
 }
@@ -584,7 +622,7 @@ img {
 
 .interests__container{
   grid-template-columns: repeat(4, max-content);
-  column-gap: 3.5rem;
+  column-gap: 1.5rem;
 }
 
 .generate-pdf{
