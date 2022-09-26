@@ -112,13 +112,13 @@ body.scale-cv{
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 
 .scale-cv .change-theme,
-.scale-cv .generate-pdf
+.scale-cv .generate-pdf,
 .scale-cv .langWrap{
   display: none;
 }
 
 .scale-cv .bd-container{
-  max-width: 595px;
+  max-width: 1000px;
 }
 
 .scale-cv .section{
