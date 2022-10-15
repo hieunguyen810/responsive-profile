@@ -129,6 +129,7 @@
                                         <img src="assets/img/japan.png" width="25" height="15">
                                     </a>
                                 </div>
+                                <!--Profile picture-->
                                 <img src="assets/img/me2.jpg" alt="" class="home__img">
                                 <h1 class="home__title"><p class="name_vn"></p></h1>
                                 <h3 class="home__profession"></h3>
@@ -153,7 +154,7 @@
                                     <i class='bx bxs-right-arrow'></i>
                                     <p class="note"></p>
                                 </span>
-                                <span>https://hieunguyen810.github.io/responsive-profile/</span>
+                                <span class="cv_link">https://hieunguyen810.github.io/responsive-profile/</span>
                             </div>
                         </div>
                         <!-- Theme change button -->
@@ -187,6 +188,7 @@
                     <!--========== EDUCATION ==========-->
                     <section class="education section" id="education">
                         <h2 class="section-title-education"></h2>
+
                         <div class="education__container bd-grid">
                             <div class="education__time">
                                 <span class="education__rounder"></span>
@@ -230,36 +232,40 @@
                         <h2 class="section-title-experience"></h2>
 
                         <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience_rouder"></span>
-                                    <span class="experience_line"></span>
-                                </div>
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
                                 <h3 class="experience__title">Software Engineer</h3>
-                                <div class="experience__data bd-grid">
-                                    <span class="experience__company_1"></span>
-                                    <p class="experience__description_1"></p> 
-                                    <!-- <i class='bx bx-star'></i> -->
-                                    <ul>
-                                        <li class="experience__detail_11"></li>
-                                        <li class="experience__detail_12"></li>
-                                        <li class="experience__detail_13"></li>
-                                    </ul>
-                                    <div class="experience__tech_1"></div>
-                                </div>
-                                <br>
+                                <span class="experience__company_1"></span>
+                                <p class="experience__description_1"></p> 
+                                <!-- <i class='bx bx-star'></i> -->
+                                <ul>
+                                    <li class="experience__detail_11"></li>
+                                    <li class="experience__detail_12"></li>
+                                    <li class="experience__detail_13"></li>
+                                </ul>
+                                <div class="experience__tech_1"></div>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
                                 <h3 class="experience__title">Software Engineer</h3>
-                                <div class="experience__data bd-grid">
-                                    <span class="experience__company_2"></span>
-                                    <p class="experience__description_2"></p> 
-                                    <!-- <i class='bx bx-star'></i> -->
-                                    <ul>
-                                        <li class="experience__detail_21"></li>
-                                        <li class="experience__detail_22"></li>
-                                        <li class="experience__detail_23"></li>
-                                    </ul>
-                                    <div class="experience__tech_2"></div>
-                                </div>
+                                <span class="experience__company_2"></span>
+                                <p class="experience__description_2"></p> 
+                                <!-- <i class='bx bx-star'></i> -->
+                                <ul>
+                                    <li class="experience__detail_21"></li>
+                                    <li class="experience__detail_22"></li>
+                                    <li class="experience__detail_23"></li>
+                                </ul>
+                                <span class="experience__tech_2"></span>
                             </div>
                         </div>
                     </section>
@@ -270,37 +276,43 @@
                             <ul class="skills__data">
                                 <li class="skills__name">
                                     <span class="iconify" data-icon="vscode-icons:file-type-python"></span>
-                                    <span class="skills_circle">Python</span>
+                                    <span class="skills_circle">&nbsp; Python</span>
                                 </li>
                                 <li class="skills__name">
                                     <span class="iconify" data-icon="logos:java"></span>
-                                    <span class="skills_circle">Java</span>
+                                    <span class="skills_circle">&nbsp; Java</span>
                                 </li>
                                 <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:tensorflow"></span>
-                                    <span class="skills_circle">Tensorflow</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:html-5"></span>
-                                    <span class="skills_circle">HTML/CSS</span>
+                                    <span class="iconify" data-icon="logos:linux-tux"></span>
+                                    <span class="skills_circle">&nbsp; Linux</span>
                                 </li>
                             </ul>
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:linux-tux"></span>
-                                    <span class="skills_circle">Linux</span>
+                                    <span class="iconify" data-icon="cib:spring"></span>
+                                    <span class="skills_circle">&nbsp; Spring Boot</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="iconify" data-icon="logos:tensorflow"></span>
+                                    <span class="skills_circle">&nbsp; Tensorflow</span>
                                 </li>
                                 <li class="skills__name">
                                     <i class='bx bx-bug'></i>
-                                    <span class="skills_circle">Web Security</span>
+                                    <span class="skills_circle">&nbsp; Cyber Security</span>
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="iconify" data-icon="cib:oracle"></span>
+                                    <span class="skills_circle">&nbsp;Oracle</span>
                                 </li>
                                 <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:mysql"></span>
-                                    <span class="skills_circle">MySQL</span>
+                                    <span class="iconify" data-icon="logos:mysql-icon"></span>
+                                    <span class="skills_circle">&nbsp; MySQL</span>
                                 </li>
                                 <li class="skills__name">
-                                    <span class="iconify" data-icon="cib:spring"></span>
-                                    <span class="skills_circle">Spring Framework</span>
+                                    <span class="iconify" data-icon="vscode-icons:file-type-mongo"></span>
+                                    <span class="skills_circle">&nbsp; MongoDB</span>
                                 </li>
                             </ul>
                         </div>

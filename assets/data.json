@@ -19,7 +19,7 @@
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
         "additional_info":"...",
-        "profile": "I have 1.5 years of experience as a software engineer. Hold a bachelor's degree in Telecommunication from Ho Chi Minh City of Technology (BKU) but am passionate about the IT domain.",
+        "profile": "A software engineer with two years of experience in developing, deploying, maintaining, and securing the web application. Strong background in networking and machine learning, hands-on experience in web application backend and system engineering, and interest in cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -29,24 +29,24 @@
             "tma": {
                 "title": "Software Enginneer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
-                "description": "Provide a patch for application every 2 months, develop a new version for this one. (outsourcing for Ribbon Communications)",
+                "description": "Developing and maintaning web application. Provide a patch for application every 2 months, develop a new version for this one. (outsourcing for Ribbon Communications)",
                 "detail": [
                     "Build LDAP client, LDAP testing server",
                     "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
                     "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
                 ],
-                "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
+                "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
             },
             "vts":{
                 "title": "Software Enginneer",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy application.",
-                    "Pentesting for DMS1.0, ECT, CallQuality, ...",
+                    "Manage, mantain, install and deploy web application.",
+                    "Penetration testing for various of web application project (DMS1.0, ECT, CallQuality, ...)",
                     "Develope an backend project for Novaland Hotram AI Camera"
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -82,7 +82,7 @@
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư phát triển phần mềm có hơn 1.5 năm kinh nghiệm. Tốt nghiệp ngành điện tử viễn thông nhưng đam mê về IT",
+        "profile": "Kỹ sư phát triển với hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức nền tảng và mạng và machine learning, kinh nghiệm thực tế trong việc phát triển ứng dụng web backend, hứng thú về bảo mật",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -103,6 +103,7 @@
             "vts":{
                 "title": "Kỹ sư phần mềm",
                 "time": "From 4-2022 to present | Viettel Solutions",
+                "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
                     "Manage, mantain, install and deploy application.",
                     "Pentesting for DMS1.0, ECT, CallQuality, ...",
@@ -142,7 +143,7 @@
         "phone": "0706987057",
         "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "I have 1.5 years of experience as a software engineer. Hold a bachelor's degree in Telecommunication from Ho Chi Minh City of Technology (BKU) but am passionate about the IT domain. ",
+        "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 2 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
         "education": {
             "degree": "電子-電気通信の学士号",
             "studies": "ホーチミン市工科大学 (BKU)",
@@ -152,22 +153,24 @@
             "tma": {
                 "title": "ソフトウェア工学",
                 "time": "2-2021から4-2022まで | TMA Solutions",
+                "description": "Maintaining the application, releasing patches every 2 months to improve user experience, fix web vulnerabilities, ... Release a new version of this application, develop a new feature.",
                 "detail": [
                     "Build LDAP client, LDAP testing server",
                     "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
                     "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
                 ],
-                "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
+                "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
             },
             "vts":{
                 "title": "ソフトウェア工学",
                 "time": "4-2022から現在まで | Viettel Solutions",
+                "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
                     "Manage, mantain, install and deploy application.",
                     "Pentesting for DMS1.0, ECT, CallQuality, ...",
                     "Develope an backend project for Novaland Hotram AI Camera"
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -179,7 +182,7 @@
             "Responsive resume [2022] [HTML CSS, Javascript]"
         ],
         "language": ["ベトナム語", "英語", "日本語"],
-        "interest": ["Football", "Anime", "..."]
+        "interest": ["フットボール", "アニメ", "料理", "読書"]
 
     }
 }

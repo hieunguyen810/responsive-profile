@@ -110,6 +110,9 @@ body.scale-cv{
 
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
+.cv_link {
+  font-style: italic;
+}
 
 .scale-cv .change-theme,
 .scale-cv .generate-pdf,
@@ -186,7 +189,7 @@ body.scale-cv{
 .scale-cv .education__line,
 .scale-cv .experience__line{
   width: 1px;
-  height: 110%;
+  height: 100%;
   transform: translate(5px, 0);
 }
 
@@ -458,7 +461,7 @@ img {
 .experience__line{
     display: block;
     width: 2px;
-    height: 110%;
+    height: 100%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
 }
@@ -488,7 +491,7 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 
 .skills__content{
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .skills__content{
   gap: 0;
