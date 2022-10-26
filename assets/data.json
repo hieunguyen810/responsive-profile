@@ -29,9 +29,9 @@
             "tma": {
                 "title": "Software Enginneer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
-                "description": "Developing and maintaning web application. Provide a patch for application every 2 months, develop a new version for this one. (outsourcing for Ribbon Communications)",
+                "description": "Developing and maintaning web application. Provide a patch for application every 2 months, develop a new version for this one. (VoIP platforms)",
                 "detail": [
-                    "Build LDAP client, LDAP testing server",
+                    "Build LDAP client, LDAP testing server, shell script for installation automatically",
                     "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
                     "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
                 ],
@@ -42,8 +42,8 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy web application.",
-                    "Penetration testing for various of web application project (DMS1.0, ECT, CallQuality, ...)",
+                    "Manage, mantain, install and deploy web application. (DMS1.0)",
+                    "Penetration testing for various of web application project (DMS1.0, ECT, CallQuality, SaleOne, Voffice, ...)",
                     "Develope an backend project for Novaland Hotram AI Camera"
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, ..."
@@ -51,7 +51,7 @@
         },
         "skills": ["Python", "Java", "...."],
         "project":[
-            "Thesis graduation: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
+            "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
@@ -92,24 +92,24 @@
             "tma": {
                 "title": "Kỹ sư phần mềm",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
-                "description": "Maintaining the application, releasing patches every 2 months to improve user experience, fix web vulnerabilities, ... Release a new version of this application, develop a new feature.",
+                "description": "Duy trì hoạt động trang web, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
                 "detail": [
-                    "Build LDAP client, LDAP testing server",
-                    "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
-                    "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
+                    "Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt",
+                    "Sửa các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
+                    "Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql"
                 ],
-                "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
+                "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VoIP, ..."
             },
             "vts":{
                 "title": "Kỹ sư phần mềm",
                 "time": "From 4-2022 to present | Viettel Solutions",
-                "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
+                "description": "Làm song song nhiều việc như Kỹ sư hệ thống, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy application.",
-                    "Pentesting for DMS1.0, ECT, CallQuality, ...",
-                    "Develope an backend project for Novaland Hotram AI Camera"
+                    "Quản lý, bảo trì, cài đặt và triển khai ứng dụng web (DMS1.0)",
+                    "Pentesting cho nhiều hệ thống DMS1.0, ECT, CallQuality, SaleOne, ...",
+                    "Phát triển backend cho dự án Novaland Hotram AI Camera"
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -141,6 +141,7 @@
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
+        "note": "より良い体験のために私のレスポンシブプロファイルにアクセスしてください",
         "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
         "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 2 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
@@ -170,12 +171,12 @@
                     "Pentesting for DMS1.0, ECT, CallQuality, ...",
                     "Develope an backend project for Novaland Hotram AI Camera"
                 ],
-                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
         "project":[
-            "Thesis graduation: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
+            "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",

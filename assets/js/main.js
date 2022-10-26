@@ -156,6 +156,7 @@ fetch("/assets/data.json")
                 document.querySelector(".experience__company_1").innerText = data[attr].experience.vts.time
                 document.querySelector(".experience__description_1").innerText = data[attr].experience.vts.description
                 document.querySelector(".experience__tech_1").innerText = data[attr].experience.vts.tech
+                document.querySelector(".experience__title_1").innerText = data[attr].experience.vts.title
                 document.querySelector(".experience__detail_11").innerText = data[attr].experience.vts.detail[0]
                 document.querySelector(".experience__detail_12").innerText = data[attr].experience.vts.detail[1]
                 document.querySelector(".experience__detail_13").innerText = data[attr].experience.vts.detail[2]
@@ -163,6 +164,7 @@ fetch("/assets/data.json")
 
                 document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
                 document.querySelector(".experience__description_2").innerText = data[attr].experience.tma.description
+                document.querySelector(".experience__title_2").innerText = data[attr].experience.tma.title
                 document.querySelector(".experience__tech_2").innerText = data[attr].experience.tma.tech
                 document.querySelector(".experience__detail_21").innerText = data[attr].experience.tma.detail[0]
                 document.querySelector(".experience__detail_22").innerText = data[attr].experience.tma.detail[1]
