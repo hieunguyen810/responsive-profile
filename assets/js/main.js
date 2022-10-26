@@ -133,7 +133,6 @@ fetch("assets/data.json")
 
                 const attr = el.getAttribute('language');
 
-                console.log(data.english.experience.tma.time)
                 document.querySelector(".name_nav").innerText = data[attr].name   
                 document.querySelector(".name_vn").innerText = data[attr].name_vn
                 document.querySelector(".address").innerText = data[attr].address

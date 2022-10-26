@@ -18,7 +18,6 @@
             fetch("assets/data.json")
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data.english.item[1])
                     document.querySelector(".name_nav").innerText = data.english.name   
                     document.querySelector(".name_vn").innerText = data.english.name_vn
                     document.querySelector(".address").innerText = data.english.address
@@ -169,7 +168,7 @@
                     <section class="social section">
                         <h2 class="section-title-social"></h2>
                         <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/hi%E1%BA%BFu-nguy%E1%BB%85n-2825221a9/" class="social__link" target="_blank">
+                            <a href="https://www.linkedin.com/in/hieunguyen810/" class="social__link" target="_blank">
                                 <i class="bx bxl-linkedin-square"></i>Linkedin
                             </a>
                         </div>
