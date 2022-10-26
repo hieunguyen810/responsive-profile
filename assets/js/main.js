@@ -123,7 +123,7 @@ resumeButton.addEventListener('click', () => {
 // Change language
 const langEl = document.querySelector('.langWrap');
 const link = document.querySelectorAll('a');
-fetch("/assets/data.json")
+fetch("assets/data.json")
     .then(response => response.json())
     .then(data => {
         link.forEach(el => {

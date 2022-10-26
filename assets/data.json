@@ -46,7 +46,7 @@
                     "Penetration testing for various of web application project (DMS1.0, ECT, CallQuality, SaleOne, Voffice, ...)",
                     "Develope an backend project for Novaland Hotram AI Camera"
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
