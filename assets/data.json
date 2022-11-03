@@ -33,7 +33,7 @@
                 "detail": [
                     "Build LDAP client, LDAP testing server, shell script for installation automatically",
                     "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
-                    "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
+                    "Migrate and upgrade 3rd party software: Tomcat, Log4j, ..."
                 ],
                 "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
             },
@@ -42,16 +42,16 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy web application. (DMS1.0)",
-                    "Penetration testing for various of web application project (DMS1.0, ECT, CallQuality, SaleOne, Voffice, ...)",
-                    "Develope an backend project for Novaland Hotram AI Camera"
+                    "Manage, mantain, install and deploy web application. (Coding, build and deploy testing server, maintaining production server.)",
+                    "Penetration testing for various of web application project.",
+                    "Develope an backend project using Spring Boot, gRPC, MongoDB."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
         "project":[
-            "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
+            "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
@@ -59,7 +59,6 @@
         ],
         "language": ["Vietnames", "English", "Japanese"],
         "interest": ["Football", "Anime", "Cooking", "Reading"]
-
     },
     "vietnamese":
     {
@@ -117,7 +116,7 @@
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
-            "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
+            "Nhận dạng rượu dựa trên quang phổ  ánh sáng bằng deep learning [2019] [Python, Tensorflow]",
             "Responsive resume [2022] [HTML CSS, Javascript]"
         ],
         "language": ["Tiếng Việt", "Tiếng Anh", "Tiếng Nhật"],
@@ -154,11 +153,11 @@
             "tma": {
                 "title": "ソフトウェア工学",
                 "time": "2-2021から4-2022まで | TMA Solutions",
-                "description": "Maintaining the application, releasing patches every 2 months to improve user experience, fix web vulnerabilities, ... Release a new version of this application, develop a new feature.",
+                "description": "アプリケーションの開発、保守. ユーザーエクスペリエンスを改善し、ウェブの脆弱性を修正するために、2 か月ごとにパッチをリリースします, ...このアプリケーションの新しいバージョンをリリースし、新しい機能を開発します。",
                 "detail": [
-                    "Build LDAP client, LDAP testing server",
-                    "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
-                    "Migrate and upgrade 3rd party: Tomcat, Log4j, ..."
+                    "LDAP クライアント, LDAP テストサーバー",
+                    "ウェブの脆弱性を修正: XSS, Local file inclution, command injection, ...",
+                    "サードパーティ ソフトウェアの移行とアップグレード: Tomcat, Log4j, ..."
                 ],
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
             },
