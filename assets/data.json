@@ -42,7 +42,7 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy web application. (Coding, build and deploy testing server, maintaining production server.)",
+                    "Manage, maintain, install and deploy web application. (Coding, build and deploy testing server, maintaining production server, write cicd job, ...)",
                     "Penetration testing for various of web application project.",
                     "Develope an backend project using Spring Boot, gRPC, MongoDB."
                 ],
@@ -104,8 +104,8 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Làm song song nhiều việc như Kỹ sư hệ thống, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
-                    "Quản lý, bảo trì, cài đặt và triển khai ứng dụng web (DMS1.0)",
-                    "Pentesting cho nhiều hệ thống DMS1.0, ECT, CallQuality, SaleOne, ...",
+                    "Quản lý, bảo trì, cài đặt và triển khai ứng dụng web. ",
+                    "Pentesting cho nhiều hệ thống quan trọng.",
                     "Phát triển backend cho dự án Novaland Hotram AI Camera"
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
@@ -134,7 +134,7 @@
             "職歴", 
             "言語",
             "プロジェクト",
-            "Social"
+            "ソーシャルメディア"
         ],
         "title":"ソフトウェア工学",
         "address": "HCMC",
@@ -166,9 +166,9 @@
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, mantain, install and deploy application.",
-                    "Pentesting for DMS1.0, ECT, CallQuality, ...",
-                    "Develope an backend project for Novaland Hotram AI Camera"
+                    "Web アプリケーションの管理、保守、インストール、デプロイ",
+                    "侵入テスト",
+                    "Develope an backend project"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
@@ -176,7 +176,7 @@
         "skills": ["Python", "Java", "...."],
         "project":[
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
-            "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
+            "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
             "Responsive resume [2022] [HTML CSS, Javascript]"
