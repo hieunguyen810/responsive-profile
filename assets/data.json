@@ -35,16 +35,16 @@
                     "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
                     "Migrate and upgrade 3rd party software: Tomcat, Log4j, ..."
                 ],
-                "tech": "Technologies: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
+                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
             },
             "vts":{
                 "title": "Software Enginneer",
                 "time": "From 4-2022 to present | Viettel Solutions",
-                "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
+                "description": "Parallelize tasks as a System/DevOps Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, maintain, install and deploy web application. (Coding, build and deploy testing server, maintaining production server, write cicd job, ...)",
+                    "Manage, maintain, install and deploy DMS application. Working with Spring, Struts2, Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx, Prometheus, ...",
                     "Penetration testing for various of web application project.",
-                    "Develope an backend project using Spring Boot, gRPC, MongoDB."
+                    "Develope an backend API using Spring Boot, gRPC, MongoDB."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, ..."
             }
@@ -104,9 +104,9 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Làm song song nhiều việc như Kỹ sư hệ thống, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
-                    "Quản lý, bảo trì, cài đặt và triển khai ứng dụng web. ",
+                    "Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ựng dụng với HAproxy, Nginx, Prometheus, ...",
                     "Pentesting cho nhiều hệ thống quan trọng.",
-                    "Phát triển backend cho dự án Novaland Hotram AI Camera"
+                    "Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
@@ -168,7 +168,7 @@
                 "detail": [
                     "Web アプリケーションの管理、保守、インストール、デプロイ",
                     "侵入テスト",
-                    "Develope an backend project"
+                    "Spring Boot, MongoDB, gRPC を使用してバックエンド API を開発する"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
             }
