@@ -29,10 +29,10 @@
             "tma": {
                 "title": "Software Enginneer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
-                "description": "Developing and maintaning web application. Provide a patch for application every 2 months, develop a new version for this one. (VoIP platforms)",
+                "description": "Developing and maintaining a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
                 "detail": [
-                    "Build LDAP client, LDAP testing server, shell script for installation automatically",
-                    "Fix vulnerability bug: XSS, Local file inclution, command injection, ...",
+                    "Build LDAP client, LDAP testing server and a Shell script for installation automatically",
+                    "Fix vulnerability bugs: XSS, Local file inclusion, command injection, ...",
                     "Migrate and upgrade 3rd party software: Tomcat, Log4j, ..."
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
@@ -42,11 +42,11 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Parallelize tasks as a System/DevOps Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, maintain, install and deploy DMS application. Working with Spring, Struts2, Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx, Prometheus, ...",
-                    "Penetration testing for various of web application project.",
-                    "Develope an backend API using Spring Boot, gRPC, MongoDB."
+                    "Manage, maintain, install and deploy DMS applications. Working with Spring, Struts2 and Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx and Prometheus, ...",
+                    "Penetration testing for various web application projects.",
+                    "Develop a backend API using Spring Boot, gRPC and MongoDB."
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -94,7 +94,7 @@
                 "description": "Duy trì hoạt động trang web, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
                 "detail": [
                     "Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt",
-                    "Sửa các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
+                    "Khắc phục các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
                     "Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql"
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VoIP, ..."
