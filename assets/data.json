@@ -33,7 +33,7 @@
                 "detail": [
                     "Build LDAP client, LDAP testing server and a Shell script for installation automatically",
                     "Fix vulnerability bugs: XSS, Local file inclusion, command injection, ...",
-                    "Migrate and upgrade 3rd party software: Tomcat, Log4j, ..."
+                    "Migrate and upgrade 3rd party software: Tomcat, Log4j, MySQL, ..."
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
             },
@@ -81,7 +81,7 @@
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư phát triển với hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức nền tảng và mạng và machine learning, kinh nghiệm thực tế trong việc phát triển ứng dụng web backend, hứng thú về bảo mật",
+        "profile": "Kỹ sư phát triển phần mềm với hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức nền tảng và mạng và machine learning, kinh nghiệm thực tế trong việc phát triển ứng dụng web backend, hứng thú về bảo mật",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -95,14 +95,14 @@
                 "detail": [
                     "Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt",
                     "Khắc phục các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
-                    "Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql"
+                    "Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql, ..."
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VoIP, ..."
             },
             "vts":{
                 "title": "Kỹ sư phần mềm",
                 "time": "From 4-2022 to present | Viettel Solutions",
-                "description": "Làm song song nhiều việc như Kỹ sư hệ thống, Kỹ sư an toàn thông tin, và Java Backend Developer.",
+                "description": "Làm song song nhiều nhiệm vụ như Kỹ sư hệ thống, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
                     "Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ựng dụng với HAproxy, Nginx, Prometheus, ...",
                     "Pentesting cho nhiều hệ thống quan trọng.",
@@ -157,14 +157,14 @@
                 "detail": [
                     "LDAP クライアント, LDAP テストサーバー",
                     "ウェブの脆弱性を修正: XSS, Local file inclution, command injection, ...",
-                    "サードパーティ ソフトウェアの移行とアップグレード: Tomcat, Log4j, ..."
+                    "サードパーティ ソフトウェアの移行とアップグレード: Tomcat, Log4j, MySQL, ..."
                 ],
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
             },
             "vts":{
                 "title": "ソフトウェア工学",
                 "time": "4-2022から現在まで | Viettel Solutions",
-                "description": "Parallelize tasks as a System Engineer, CyberSecurity Engineer, and Java Backend Developer.",
+                "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
                     "Web アプリケーションの管理、保守、インストール、デプロイ",
                     "侵入テスト",
