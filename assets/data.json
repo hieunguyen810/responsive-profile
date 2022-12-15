@@ -35,18 +35,18 @@
                     "Fix vulnerability bugs: XSS, Local file inclusion, command injection, ...",
                     "Migrate and upgrade 3rd party software: Tomcat, Log4j, MySQL, ..."
                 ],
-                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware,..."
+                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud,..."
             },
             "vts":{
                 "title": "Software Enginneer",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Multiple responsibilities as a System/DevOps Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, maintain, install and deploy DMS applications. Working with Spring, Struts2 and Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx and Prometheus, ...",
-                    "Penetration testing for various web application projects.",
+                    "Manage, maintain, install and deploy DMS applications. Working with Spring, Struts2 and Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx and Prometheus, Grafana, ...",
+                    "Penetration testing for various web application projects. (SAST, DAST and manual test)",
                     "Develop a backend API using Spring Boot, gRPC and MongoDB."
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Fortify, Ansible, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -104,11 +104,11 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Đảm nhận nhiều trách nhiệm như Kỹ sư hệ thống/DevOps, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
-                    "Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ựng dụng với HAproxy, Nginx, Prometheus, ...",
-                    "Pentesting cho nhiều hệ thống quan trọng.",
+                    "Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ứng dụng với HAproxy, Nginx, Prometheus, Grafana, ...",
+                    "Pentesting cho nhiều hệ thống quan trọng. (SAST, DAST và manual test)",
                     "Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
                 ],
-                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, Ansible, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
@@ -167,10 +167,10 @@
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
                     "Web アプリケーションの管理、保守、インストール、デプロイ",
-                    "侵入テスト",
+                    "侵入テスト (SAST, DAST, 手動テスト)",
                     "Spring Boot, MongoDB, gRPC を使用してバックエンド API を開発する"
                 ],
-                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gPRC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, ..."
+                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Docker, Jenkins, Ansible, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
