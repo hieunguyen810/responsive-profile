@@ -46,7 +46,7 @@
                     "Penetration testing for various web application projects. (SAST, DAST and manual test)",
                     "Develop a backend API using Spring Boot, gRPC and MongoDB."
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Fortify, Ansible, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, ..."
             }
         },
         "skills": ["Python", "Java", "...."],
