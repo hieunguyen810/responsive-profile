@@ -31,9 +31,9 @@
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "description": "Developing and maintaining a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
                 "detail": [
-                    "Build LDAP client, LDAP testing server and a Shell script for installation automatically",
-                    "Fix vulnerability bugs: XSS, Local file inclusion, command injection, ...",
-                    "Migrate and upgrade 3rd party software: Tomcat, Log4j, MySQL, ..."
+                    "- Build LDAP client, LDAP testing server and a Shell script for installation automatically",
+                    "- Fix vulnerability bugs: XSS, Local file inclusion, command injection, ...",
+                    "- Migrate and upgrade 3rd party software: Tomcat, Log4j, MySQL, ..."
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud,..."
             },
@@ -42,9 +42,9 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Multiple responsibilities as a System/DevOps Engineer, CyberSecurity Engineer, and Java Backend Developer.",
                 "detail": [
-                    "Manage, maintain, install and deploy DMS applications. Working with Spring, Struts2 and Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx and Prometheus, Grafana, ...",
-                    "Penetration testing for various web application projects. (SAST, DAST and manual test)",
-                    "Develop a backend API using Spring Boot, gRPC and MongoDB."
+                    "- Manage, maintain, install and deploy DMS applications. Working with Spring, Struts2 and Tomcat web application. Oracle database, DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx and Prometheus, Grafana, ...",
+                    "- Penetration testing for various web application projects. (SAST, DAST and manual test)",
+                    "- Develop a backend API using Spring Boot, gRPC and MongoDB."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, ..."
             }
@@ -93,9 +93,9 @@
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "description": "Duy trì hoạt động trang web, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
                 "detail": [
-                    "Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt",
-                    "Khắc phục các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
-                    "Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql, ..."
+                    "- Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt",
+                    "- Khắc phục các lỗ hổng bảo mật: XSS, Local file inclution, command injection, ...",
+                    "- Nâng cấp và cập nhật các phần mềm bên thứ 3: Tomcat, Log4j, MySql, ..."
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VoIP, ..."
             },
@@ -104,9 +104,9 @@
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "description": "Đảm nhận nhiều trách nhiệm như Kỹ sư hệ thống/DevOps, Kỹ sư an toàn thông tin, và Java Backend Developer.",
                 "detail": [
-                    "Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ứng dụng với HAproxy, Nginx, Prometheus, Grafana, ...",
-                    "Pentesting cho nhiều hệ thống quan trọng. (SAST, DAST và manual test)",
-                    "Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
+                    "- Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Ứng dụng web sử dụng Spring, Struts2, Tomcat. Oracle database, DevSecOps with Jenkins CICD pipeline. Triển khai microservices với Docker. Tối ưu hóa ứng dụng với HAproxy, Nginx, Prometheus, Grafana, ...",
+                    "- entesting cho nhiều hệ thống quan trọng. (SAST, DAST và manual test)",
+                    "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, Ansible, ..."
             }
@@ -155,9 +155,9 @@
                 "time": "2-2021から4-2022まで | TMA Solutions",
                 "description": "アプリケーションの開発、保守. ユーザーエクスペリエンスを改善し、ウェブの脆弱性を修正するために、2 か月ごとにパッチをリリースします, ...このアプリケーションの新しいバージョンをリリースし、新しい機能を開発します。",
                 "detail": [
-                    "LDAP クライアント, LDAP テストサーバー",
-                    "ウェブの脆弱性を修正: XSS, Local file inclution, command injection, ...",
-                    "サードパーティ ソフトウェアの移行とアップグレード: Tomcat, Log4j, MySQL, ..."
+                    "- LDAP クライアント, LDAP テストサーバー",
+                    "- ウェブの脆弱性を修正: XSS, Local file inclution, command injection, ...",
+                    "- サードパーティ ソフトウェアの移行とアップグレード: Tomcat, Log4j, MySQL, ..."
                 ],
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
             },
@@ -166,9 +166,9 @@
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
-                    "Web アプリケーションの管理、保守、インストール、デプロイ",
-                    "侵入テスト (SAST, DAST, 手動テスト)",
-                    "Spring Boot, MongoDB, gRPC を使用してバックエンド API を開発する"
+                    "- Web アプリケーションの管理、保守、インストール、デプロイ",
+                    "- 侵入テスト (SAST, DAST, 手動テスト)",
+                    "- Spring Boot, MongoDB, gRPC を使用してバックエンド API を開発する"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Docker, Jenkins, Ansible, ..."
             }
