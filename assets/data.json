@@ -18,7 +18,6 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "additional_info":"...",
         "profile": "A software engineer with two years of experience in developing, deploying, maintaining, and securing the web application. Strong background in networking and machine learning, hands-on experience in web application backend and system engineering, and interest in cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
@@ -33,23 +32,25 @@
                     "- Developing and maintaining a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
                     "- Build LDAP client, LDAP testing server and a Shell script for installation automatically"
                 ],
-                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud,..."
+                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud, ..."
             },
             "vts":{
                 "title": "Software Enginneer",
-                "time": "From 4-2022 to present | Viettel Solutions",
+                "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
-                    "- Manage, maintain, install and deploy DMS applications. DevSecOps with Jenkins CICD pipeline. Deploy microservices with Docker. Optimize server with HAproxy, Nginx, Memcached, ... Server monitoring with Prometheus, Grafana, ...",
+                    "- Collaborate with infrastructure team, network team, cybersecurity team, backend team, NOC to managing servers, connections, security, ensure service's availability, service’s performance.",
+                    "- Manage, maintain, install and deploy DMS applications in SIT, UAT, POC and Production environment",
+                    "- Building DevSecOps pipeline for Production environment",
+                    "- Research, design, and implement solutions for containerization, performance enhancements and monitoring.",
                     "- Penetration testing for various web application projects. (SAST, DAST and manual test). Main responsibility for information security for VTS Southern branch (VPN, Personal Computer, standards, regulations, ...)",
                     "- Develop a backend API using Spring Boot, gRPC and MongoDB."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, ..."
             }
         },
-        "skills": ["Python", "Java", "...."],
         "project":[
-            "Course: AWS Cloud Practitioner Essentials (complete)",
-            "PortSwigger vulnerability labs (24%)",
+            "Course: AWS Cloud Practitioner Essentials",
+            "PortSwigger vulnerability labs",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
@@ -70,7 +71,7 @@
             "Kỹ năng",
             "Kinh nghiệm",
             "Ngôn ngữ",
-            "Project cá nhân",
+            "Project cá nhân và khóa học",
             "Mạng xã hội"
         ],
         "title":"Kỹ sư phần mềm",
@@ -78,7 +79,6 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
-        "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
         "profile": "Kỹ sư phát triển phần mềm với hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức nền tảng và mạng và machine learning, kinh nghiệm thực tế trong việc phát triển ứng dụng web backend, hứng thú về bảo mật",
         "education": {
@@ -100,17 +100,19 @@
                 "title": "Kỹ sư phần mềm",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
-                    "- Quản lý, bảo trì, cài đặt và triển khai hệ thống DMS. Triển khai DevSecOps CICD với Jenkins. Triển khai microservices với Docker. Tối ưu hóa ứng dụng với HAproxy, Nginx, Memcached, ...Giám sát server với Prometheus, Grafana, ...",
+                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ, ",
+                    "- Quản lý, bảo trì, cài đặt, triển khai hệ thống DMS ở môi trường SIT, UAT, POC và Production.",
+                    "- Xây dựng DevSecOps pipeline cho môi trường Production",
+                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
                     "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, Ansible, ..."
             }
         },
-        "skills": ["Python", "Java", "...."],
         "project":[
-            "Course: AWS Cloud Practitioner Essentials (complete)",
-            "PortSwigger vulnerability labs (24%)",
+            "Course: AWS Cloud Practitioner Essentials",
+            "PortSwigger vulnerability labs",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
@@ -139,7 +141,6 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "より良い体験のために私のレスポンシブプロファイルにアクセスしてください",
-        "additional_info":"...",
         "social": ["Linkedin", "Github (hieunguyen810)"],
         "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 2 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
         "education": {
@@ -170,10 +171,9 @@
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Docker, Jenkins, Ansible, ..."
             }
         },
-        "skills": ["Python", "Java", "...."],
         "project":[
-            "コース: AWS Cloud Practitioner Essentials (完了)",
-            "PortSwigger vulnerability labs (24%)",
+            "コース: AWS Cloud Practitioner Essentials",
+            "PortSwigger vulnerability labs",
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",

@@ -159,6 +159,9 @@ fetch("assets/data.json")
                 document.querySelector(".experience__detail_11").innerText = data[attr].experience.vts.detail[0]
                 document.querySelector(".experience__detail_12").innerText = data[attr].experience.vts.detail[1]
                 document.querySelector(".experience__detail_13").innerText = data[attr].experience.vts.detail[2]
+                document.querySelector(".experience__detail_14").innerText = data[attr].experience.vts.detail[3]
+                document.querySelector(".experience__detail_15").innerText = data[attr].experience.vts.detail[4]
+                document.querySelector(".experience__detail_16").innerText = data[attr].experience.vts.detail[5]
 
 
                 document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
