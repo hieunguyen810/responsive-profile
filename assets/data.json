@@ -13,7 +13,7 @@
             "Personal Project and Courses",
             "Social"
         ],
-        "title":"Software Enginneer",
+        "title":"DevOps Enginneer",
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
@@ -35,7 +35,7 @@
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud, ..."
             },
             "vts":{
-                "title": "Software Enginneer",
+                "title": "DevSecOps Enginneer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
                     "- Collaborate with infrastructure team, network team, cybersecurity team, backend team, NOC to managing servers, connections, security, ensure service's availability, service’s performance.",
@@ -54,6 +54,7 @@
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
             "Responsive resume [2022] [HTML, CSS, Javascript]"
         ],

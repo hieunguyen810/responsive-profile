@@ -138,7 +138,7 @@ fetch("assets/data.json")
                 document.querySelector(".address").innerText = data[attr].address
                 document.querySelector(".email").innerText = data[attr].email
                 document.querySelector(".phone").innerText = data[attr].phone
-                document.querySelector(".note").innerText = data[attr].note
+                // document.querySelector(".note").innerText = data[attr].note
                 document.querySelector(".profile__description").innerText = data[attr].profile 
                 document.querySelector(".education__title").innerText = data[attr].education.degree
                 document.querySelector(".education__studies").innerText = data[attr].education.studies
