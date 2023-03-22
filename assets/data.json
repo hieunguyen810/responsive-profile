@@ -40,7 +40,7 @@
                 "detail": [
                     "- Collaborate with infrastructure team, network team, cybersecurity team, backend team, NOC to managing servers, connections, security, ensure service's availability, service’s performance.",
                     "- Manage, maintain, install and deploy DMS applications in SIT, UAT, POC and Production environment",
-                    "- Building DevSecOps pipeline for Production environment",
+                    "- Building DevSecOps pipeline",
                     "- Research, design, and implement solutions for containerization, performance enhancements and monitoring.",
                     "- Penetration testing for various web application projects. (SAST, DAST and manual test). Main responsibility for information security for VTS Southern branch (VPN, Personal Computer, standards, regulations, ...)",
                     "- Develop a backend API using Spring Boot, gRPC and MongoDB."
@@ -103,7 +103,7 @@
                 "detail": [
                     "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ, ",
                     "- Quản lý, bảo trì, cài đặt, triển khai hệ thống DMS ở môi trường SIT, UAT, POC và Production.",
-                    "- Xây dựng DevSecOps pipeline cho môi trường Production",
+                    "- Xây dựng DevSecOps pipeline",
                     "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
                     "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
@@ -165,9 +165,12 @@
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
-                    "- DMS アプリケーションを管理、維持、インストール、展開します。 Jenkins CICD パイプラインを使用した DevSecOps。 Docker を使用してマイクロサービスをデプロイします。 HAproxy、Nginx、Memcached などでサーバーを最適化する Prometheus、Grafana などでサーバーを監視する",
-                    "- 侵入テスト (SAST, DAST, 手動テスト). VTS 南部支店の情報セキュリティの主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
-                    "- Spring Boot, MongoDB, gRPC を使用してバックエンド API を開発する"
+                    "- インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、バックエンド チーム、NOC と協力してサーバー、接続、セキュリティを管理し、サービスの可用性とパフォーマンスを確保します。",
+                    "- SIT、UAT、POC、および本番環境での DMS アプリケーションの管理、維持、インストール、展開",
+                    "- DevSecOps パイプラインの構築",
+                    "- コンテナ化、パフォーマンス強化、および監視のためのソリューションを研究、設計、および実装します。",
+                    "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
+                    "- Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Docker, Jenkins, Ansible, ..."
             }
