@@ -13,12 +13,12 @@
             "Personal Project and Courses",
             "Social"
         ],
-        "title":"DevOps Enginneer",
+        "title":"DevSecOps Enginneer",
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "A software engineer with two years of experience in developing, deploying, maintaining, and securing the web application. Strong background in networking and machine learning, hands-on experience in web application backend and system engineering, and interest in cybersecurity. ",
+        "profile": "A software engineer with 2+ years of experience in developing, deploying, maintaining, and securing the application. Strong background in networking and machine learning, hands-on experience in web application backend and system engineering, and interest in cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -29,23 +29,23 @@
                 "title": "Software Enginneer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Developing and maintaining a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
+                    "- Developing, maintaining and deploying a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
                     "- Build LDAP client, LDAP testing server and a Shell script for installation automatically"
                 ],
-                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VMware VCloud, ..."
+                "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
             "vts":{
                 "title": "DevSecOps Enginneer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
-                    "- Collaborate with infrastructure team, network team, cybersecurity team, backend team, NOC to managing servers, connections, security, ensure service's availability, service’s performance.",
-                    "- Manage, maintain, install and deploy DMS applications in SIT, UAT, POC and Production environment",
-                    "- Building DevSecOps pipeline",
-                    "- Research, design, and implement solutions for containerization, performance enhancements and monitoring.",
+                    "- Collaborate with infrastructure team, network team, cybersecurity team, developer, NOC to managing servers, connections, security, ensure service's availability, service’s performance.",
+                    "- Manage, maintain, install and deploy DMS applications in SIT, UAT and Production environment",
+                    "- Develop a backend API using Spring Boot, gRPC and MongoDB.",
+                    "- Research, design, and implement solutions for containerization (Docker), performance enhancements and monitoring (Prometheus, Grafana). ",
                     "- Penetration testing for various web application projects. (SAST, DAST and manual test). Main responsibility for information security for VTS Southern branch (VPN, Personal Computer, standards, regulations, ...)",
-                    "- Develop a backend API using Spring Boot, gRPC and MongoDB."
+                    "- Building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, ..."
             }
         },
         "project":[
@@ -75,7 +75,7 @@
             "Project cá nhân và khóa học",
             "Mạng xã hội"
         ],
-        "title":"Kỹ sư phần mềm",
+        "title":"Kỹ sư DevSecOps",
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
@@ -92,10 +92,10 @@
                 "title": "Kỹ sư phần mềm",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Phát triển ứng dụng, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, nâng cấp 3rd software, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
+                    "- Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, nâng cấp 3rd software, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
                     "- Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt"
                 ],
-                "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, VoIP, ..."
+                "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
             "vts":{
                 "title": "Kỹ sư phần mềm",
@@ -103,10 +103,10 @@
                 "detail": [
                     "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ, ",
                     "- Quản lý, bảo trì, cài đặt, triển khai hệ thống DMS ở môi trường SIT, UAT, POC và Production.",
-                    "- Xây dựng DevSecOps pipeline",
-                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
+                    "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
+                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization (Docker), giám sát (Prometheus, Grafana) và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
-                    "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC"
+                    "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, ..."
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, Ansible, ..."
             }
@@ -158,7 +158,7 @@
                     "- Web アプリケーションの開発と保守。アプリケーションのパッチを 2 か月ごとに提供し、このアプリケーションの新しいバージョンを作成します。(VoIP プラットフォーム)",
                     "- LDAP クライアント, LDAP テストサーバー"
                 ],
-                "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, LDAP, Tomcat, ..."
+                "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
             "vts":{
                 "title": "ソフトウェア工学",
@@ -167,7 +167,7 @@
                 "detail": [
                     "- インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、バックエンド チーム、NOC と協力してサーバー、接続、セキュリティを管理し、サービスの可用性とパフォーマンスを確保します。",
                     "- SIT、UAT、POC、および本番環境での DMS アプリケーションの管理、維持、インストール、展開",
-                    "- DevSecOps パイプラインの構築",
+                    "- DevSecOps パイプラインの構築 (Jenskin, Gitlab, Ansible, Fortify, Sonarqube, ...)",
                     "- コンテナ化、パフォーマンス強化、および監視のためのソリューションを研究、設計、および実装します。",
                     "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
                     "- Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
