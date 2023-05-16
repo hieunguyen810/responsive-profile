@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "A software engineer with 2+ years of experience in developing, deploying, maintaining, and securing the application. Strong background in networking and machine learning, hands-on experience in web application backend and system engineering, and interest in cybersecurity. ",
+        "profile": "Passionate software engineer with 2+ years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation system and Networking. Skilled in backend developement and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -43,7 +43,7 @@
                     "- Develop a backend API using Spring Boot, gRPC and MongoDB.",
                     "- Research, design, and implement solutions for containerization (Docker), performance enhancements and monitoring (Prometheus, Grafana). ",
                     "- Penetration testing for various web application projects. (SAST, DAST and manual test). Main responsibility for information security for VTS Southern branch (VPN, Personal Computer, standards, regulations, ...)",
-                    "- Building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
+                    "- Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, ..."
             }
@@ -81,7 +81,7 @@
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư phát triển phần mềm với hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức nền tảng và mạng và machine learning, kinh nghiệm thực tế trong việc phát triển ứng dụng web backend, hứng thú về bảo mật",
+        "profile": "Kỹ sư phát triển phần mềm với hơn hai năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -117,6 +117,7 @@
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Nhận dạng rượu dựa trên quang phổ  ánh sáng bằng deep learning [2019] [Python, Tensorflow]",
             "Responsive resume [2022] [HTML CSS, Javascript]"
         ],
@@ -181,8 +182,9 @@
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
-            "Responsive resume [2022] [HTML CSS, Javascript]"
+            "応答性の高い履歴書 [2022] [HTML CSS, Javascript]"
         ],
         "language": ["ベトナム語", "英語", "日本語"],
         "interest": ["フットボール", "アニメ", "料理", "読書"]
