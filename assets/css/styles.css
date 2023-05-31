@@ -83,9 +83,9 @@ body.dark-theme{
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv{
   --h1-font-size: .900rem;
-  --h2-font-size: .900rem;
+  --h2-font-size: .855rem;
   --h3-font-size: .825rem;
-  --normal-font-size: .780rem;
+  --normal-font-size: .760rem;
   --small-font-size: .65rem;
   --smaller-font-size: .625rem;
 }

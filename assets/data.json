@@ -50,13 +50,14 @@
         },
         "project":[
             "Course: AWS Cloud Practitioner Essentials",
-            "PortSwigger vulnerability labs",
+            "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
-            "Responsive resume [2022] [HTML, CSS, Javascript]"
+            "PortSwigger vulnerability labs"
+
         ],
         "language": ["Vietnames", "English", "Japanese"],
         "interest": ["Football", "Anime", "Cooking", "Reading"]
@@ -113,13 +114,14 @@
         },
         "project":[
             "Course: AWS Cloud Practitioner Essentials",
-            "PortSwigger vulnerability labs",
+            "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Nhận dạng rượu dựa trên quang phổ  ánh sáng bằng deep learning [2019] [Python, Tensorflow]",
-            "Responsive resume [2022] [HTML CSS, Javascript]"
+            "PortSwigger vulnerability labs"
+            
         ],
         "language": ["Tiếng Việt", "Tiếng Anh", "Tiếng Nhật"],
         "interest": ["Bóng đá", "Anime", "Nấu ăn", "Đọc sách"]
@@ -178,13 +180,13 @@
         },
         "project":[
             "コース: AWS Cloud Practitioner Essentials",
-            "PortSwigger vulnerability labs",
+            "応答性の高い履歴書 [2022] [HTML CSS, Javascript]",
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
             "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
-            "応答性の高い履歴書 [2022] [HTML CSS, Javascript]"
+            "PortSwigger vulnerability labs"
         ],
         "language": ["ベトナム語", "英語", "日本語"],
         "interest": ["フットボール", "アニメ", "料理", "読書"]
