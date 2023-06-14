@@ -29,7 +29,7 @@
                 "title": "Software Enginneer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Developing, maintaining and deploying a web application. Provide a patch for the application every 2 months, and create a new version for this one. (VoIP platforms)",
+                    "- Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
                     "- Build LDAP client, LDAP testing server and a Shell script for installation automatically"
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
@@ -50,6 +50,7 @@
         },
         "project":[
             "Course: AWS Cloud Practitioner Essentials",
+            "Cource: AWS Cloud Operator (SysOps)",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
@@ -57,7 +58,6 @@
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
             "PortSwigger vulnerability labs"
-
         ],
         "language": ["Vietnames", "English", "Japanese"],
         "interest": ["Football", "Anime", "Cooking", "Reading"]
@@ -93,7 +93,7 @@
                 "title": "Kỹ sư phần mềm",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi mỗi 2 tháng nhằm cải thiện trải nghiệm người dùng, sửa lỗ hổng bảo mật, nâng cấp 3rd software, ... Xây dựng phiên bản mới cho phần mềm trên, phát triển nhiều tính năng mới. (Nền tảng VoIP)",
+                    "- Outsourcing cho công ty của Mỹ, với nhiều khách hàng là nhiều công ty lớn. Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi (Nền tảng VoIP)",
                     "- Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt"
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
@@ -114,6 +114,7 @@
         },
         "project":[
             "Course: AWS Cloud Practitioner Essentials",
+            "Cource: AWS Cloud Operator (SysOps)",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
@@ -180,6 +181,7 @@
         },
         "project":[
             "コース: AWS Cloud Practitioner Essentials",
+            "Cource: AWS Cloud Operator (SysOps)",
             "応答性の高い履歴書 [2022] [HTML CSS, Javascript]",
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",

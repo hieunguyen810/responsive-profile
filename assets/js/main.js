@@ -177,6 +177,8 @@ fetch("assets/data.json")
                 document.querySelector(".project-3").innerText = data[attr].project[2]
                 document.querySelector(".project-4").innerText = data[attr].project[3]
                 document.querySelector(".project-5").innerText = data[attr].project[4]
+                document.querySelector(".project-6").innerText = data[attr].project[6]
+                document.querySelector(".project-7").innerText = data[attr].project[7]
                 // Languages
                 document.querySelector(".languages__circle_1").innerText = data[attr].language[0]
                 document.querySelector(".languages__circle_2").innerText = data[attr].language[1]
