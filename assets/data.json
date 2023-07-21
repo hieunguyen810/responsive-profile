@@ -30,7 +30,7 @@
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
                     "- Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
-                    "- Build LDAP client, LDAP testing server and a Shell script for installation automatically"
+                    "- Build LDAP client, LDAP server and a Shell script for installation automatically"
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
@@ -94,7 +94,7 @@
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
                     "- Outsourcing cho công ty của Mỹ, với nhiều khách hàng là nhiều công ty lớn. Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi (Nền tảng VoIP)",
-                    "- Dựng LDAP client, LDAP server phục vụ việc test, shell script để tự động cài đặt"
+                    "- Dựng LDAP client, LDAP server, shell script để tự động cài đặt"
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
