@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Passionate DevSecOps engineer with 2.5 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation system and Networking. Skilled in backend developement and cybersecurity. ",
+        "profile": "Passionate DevSecOps engineer with 2.5 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation system and Networking. Skilled in backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -26,7 +26,7 @@
         },
         "experience": {
             "tma": {
-                "title": "Software Enginneer",
+                "title": "Software Engineer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
                     "- Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
@@ -35,17 +35,18 @@
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
             "vts":{
-                "title": "DevSecOps Enginneer",
+                "title": "DevSecOps Engineer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
-                    "- Collaborate with infrastructure team, network team, cybersecurity team, developer, NOC to managing servers, connections, security, ensure service's availability 24/7, service’s performance.",
-                    "- Manage, maintain, install and deploy DMS applications in SIT, UAT and Production environment",
-                    "- Develop a backend API using Spring Boot, gRPC and MongoDB.",
-                    "- Research, design, and implement solutions for containerization (Docker), performance enhancements and monitoring (Prometheus, Grafana). ",
-                    "- Penetration testing for various web application projects. (SAST, DAST and manual test). Main responsibility for information security for VTS Southern branch (VPN, Personal Computer, standards, regulations, ...)",
+                    "- Leading a small team with four members",
+                    "- Collaborate with infrastructure team, network team, cybersecurity team, developer, and NOC to manage servers, connections, and security, ensure service availability 24/7, and service performance.",
+                    "- Manage, maintain, install, and deploy over 20 applications in SIT, UAT and Production environment",
+                    "- Develop a backend API using Spring Boot, gRPC, and MongoDB",
+                    "- Research, design, and implement solutions for containerization (Docker), performance enhancements, and monitoring.",
+                    "- Penetration testing for various web application projects. (SAST, DAST, and manual test). Primary responsibility for information security for the VTS Southern branch (VPN, Personal Computer, standards, regulations, etc.)",
                     "- Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
                 ],
-                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, ..."
+                "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
         },
         "project":[
@@ -102,14 +103,15 @@
                 "title": "Kỹ sư DevSecOps",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
+                    "- Quản lý một team nhỏ với 4 thành viên ",
                     "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ 24/7, ",
-                    "- Quản lý, bảo trì, cài đặt, triển khai hệ thống DMS ở môi trường SIT, UAT, POC và Production.",
+                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 20 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
                     "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
-                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization (Docker), giám sát (Prometheus, Grafana) và cải thiện hiệu năng",
+                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization (Docker), giám sát và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
                     "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, ..."
                 ],
-                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgeSQL, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenskin, Docker, Ansible, Nginx, Haproxy, ..."
+                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
         },
         "project":[
@@ -176,7 +178,7 @@
                     "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
                     "- Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
                 ],
-                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, Docker, gRPC, SocketIO, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Docker, Jenkins, Ansible, Nginx, Haproxy, ..."
+                "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
         },
         "project":[
