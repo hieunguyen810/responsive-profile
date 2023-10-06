@@ -97,11 +97,13 @@ let resumeButton = document.getElementById('resume-button')
 
 // Html2pdf options
 let opt = {
-    margin:       0,
-    filename:     'myResume.pdf',
+    margin:       1,
+    filename:     'NGUYENTRIHIEU_Resume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
-    jsPDF:        { format: 'a4', orientation: 'portrait' }
+    jsPDF:        { format: 'a4', orientation: 'portrait' },
+    enableLinks:  true,
+    pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
   };
 
 // Function to call areaCv and Html2Pdf options 
