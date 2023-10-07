@@ -29,12 +29,13 @@
                 "title": "Software Engineer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
-                    "Build LDAP client, LDAP server and a Shell script for installation automatically"
+                    "- Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
+                    "- Build LDAP client, LDAP server and a Shell script for installation automatically"
                 ],
                 "more_detail": [
-                    "Maintain the application for processing phone call, export report, notification, ... </br > Install test server on Vmware Vcloud and Virtual Host Enviroment </br> Update 3rd party software, fix xss, local file inclusion, ...",
-                    ""
+                    "- Maintain the application for processing phone call, export report, notification, ...",
+                    "- Install test server on Vmware Vcloud and Virtual Host Enviroment",
+                    "- Update 3rd party software, fix xss, local file inclusion, ..."
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
@@ -42,13 +43,17 @@
                 "title": "DevSecOps Engineer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
-                    "Leading a small team with four members",
-                    "Collaborate with infrastructure team, network team, cybersecurity team, developer, and NOC to manage servers, connections, and security, ensure service availability 24/7, and service performance.",
-                    "Manage, maintain, install, and deploy over 20 applications in SIT, UAT and Production environment",
-                    "Develop a backend API using Spring Boot, gRPC, and MongoDB",
-                    "Research, design, and implement solutions for containerization (Docker), performance enhancements, and monitoring.",
-                    "Penetration testing for various web application projects. (SAST, DAST, and manual test). Primary responsibility for information security for the VTS Southern branch (VPN, Personal Computer, standards, regulations, etc.)",
-                    "Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
+                    "- Leading a small team with four members",
+                    "- Collaborate with infrastructure team, network team, cybersecurity team, developer, and NOC to manage servers, connections, and security, ensure service availability 24/7, and service performance.",
+                    "- Manage, maintain, install, and deploy over 20 applications in SIT, UAT and Production environment",
+                    "- Develop a backend API using Spring Boot, gRPC, and MongoDB",
+                    "- Research, design, and implement solutions for containerization (Docker), performance enhancements, and monitoring.",
+                    "- Penetration testing for various web application projects. (SAST, DAST, and manual test). Primary responsibility for information security for the VTS Southern branch (VPN, Personal Computer, standards, regulations, etc.)",
+                    "- Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
+                ],
+                "more_detail":[
+                    "- ",
+                    "- "
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
@@ -98,8 +103,16 @@
                 "title": "Kỹ sư phần mềm",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "Outsourcing cho công ty của Mỹ, với nhiều khách hàng là nhiều công ty lớn. Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi (Nền tảng VoIP)",
-                    "Dựng LDAP client, LDAP server, shell script để tự động cài đặt"
+                    "- Outsourcing cho công ty của Mỹ, với khách hàng là nhiều công ty viễn thông hàng đầu thế giới",
+                    "- Phát triển phiên bản mới và cung cấp bản vá lỗi về giao diện, hiệu năng, bảo mật, ... cho ứng dụng",
+                    "- Cài đặt server, phần mềm, viết shell script cài đặt phần mềm, cấu hình, ..."
+                ],
+                "more_detail":[
+                    "- Làm việc với hệ thống nền tảng VoIP, cung cấp các chứa năng xứ lý cuộc gọi, xuất báo cáo, thông báo, ...",
+                    "- Phát triển chức năng xác thực thông qua LDAP, cài đặt OpenLDAP client, server, viết script tự động cài đặt, export ldif file, ...",
+                    "- Nâng cấp các phần mềm bên thứ 3, fix các lỗi bảo mật như XSS, local file inclusion, misconfiguration, ...",
+                    "- Cài đặt server test trên VMware Vcloud, Virtual Host Environment. ",
+                    "- Phát triển các chức năng xứ lý cuộc gọi (C++), fix lỗi giao diện web, lỗi hiệu năng, ..."
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
@@ -107,13 +120,16 @@
                 "title": "Kỹ sư DevSecOps",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
-                    "Quản lý một team nhỏ với 4 thành viên ",
-                    "Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ 24/7, ",
-                    "Quản lý, bảo trì, cài đặt, triển khai hơn 20 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
-                    "Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
-                    "Nghiên cứu, thiết kế và triển khai các phương án containerization (Docker), giám sát và cải thiện hiệu năng",
-                    "Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
-                    "Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, ..."
+                    "- Quản lý một team nhỏ với 4 thành viên.",
+                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, đảm bảo kết nối, an toàn thông tin, hiệu năng, tính khả dụng của dịch vụ 24/7,...",
+                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 30 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
+                    "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
+                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
+                    "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho toàn trung tâm với hơn 250 người (VPN, Tài khoản, Tiêu chuẩn, Quy định, ...)",
+                    "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, ..."
+                ],
+                "more_detail":[
+                    ""
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
@@ -168,6 +184,9 @@
                     "- Web アプリケーションの開発と保守。アプリケーションのパッチを 2 か月ごとに提供し、このアプリケーションの新しいバージョンを作成します。(VoIP プラットフォーム)",
                     "- LDAP クライアント, LDAP テストサーバー"
                 ],
+                "more_detail":[
+                    ""
+                ],
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
             "vts":{
@@ -175,12 +194,15 @@
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
-                    "インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、バックエンド チーム、NOC と協力してサーバー、接続、セキュリティを管理し、サービスの可用性とパフォーマンスを確保します。",
-                    "SIT、UAT、POC、および本番環境での DMS アプリケーションの管理、維持、インストール、展開",
-                    "DevSecOps パイプラインの構築 (Jenskin, Gitlab, Ansible, Fortify, Sonarqube, ...)",
-                    "コンテナ化、パフォーマンス強化、および監視のためのソリューションを研究、設計、および実装します。",
-                    "さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
-                    "Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
+                    "- インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、バックエンド チーム、NOC と協力してサーバー、接続、セキュリティを管理し、サービスの可用性とパフォーマンスを確保します。",
+                    "- SIT、UAT、POC、および本番環境での DMS アプリケーションの管理、維持、インストール、展開",
+                    "- DevSecOps パイプラインの構築 (Jenskin, Gitlab, Ansible, Fortify, Sonarqube, ...)",
+                    "- コンテナ化、パフォーマンス強化、および監視のためのソリューションを研究、設計、および実装します。",
+                    "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
+                    "- Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
+                ],
+                "more_detail":[
+
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }

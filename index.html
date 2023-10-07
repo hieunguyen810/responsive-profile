@@ -31,25 +31,17 @@
                     document.querySelector(".education__year").innerText = data.english.education.year
                     // Experience
                     document.querySelector(".experience__company_1").innerText = data.english.experience.vts.time
-                    // document.querySelector(".experience__description_1").innerText = data.english.experience.vts.description
                     document.querySelector(".experience__tech_1").innerText = data.english.experience.vts.tech
                     document.querySelector(".experience__title_1").innerText = data.english.experience.vts.title
-                    document.querySelector(".experience__detail_11").innerText = data.english.experience.vts.detail[0]
-                    document.querySelector(".exp_detail_11").innerHTML = data.english.experience.tma.more_detail[0]
-                    document.querySelector(".experience__detail_12").innerText = data.english.experience.vts.detail[1]
-                    document.querySelector(".experience__detail_13").innerText = data.english.experience.vts.detail[2]
-                    document.querySelector(".experience__detail_14").innerText = data.english.experience.vts.detail[3]
-                    document.querySelector(".experience__detail_15").innerText = data.english.experience.vts.detail[4]
-                    document.querySelector(".experience__detail_16").innerText = data.english.experience.vts.detail[5]
+                    document.querySelector(".experience__detail_1").innerHTML = data.english.experience.vts.detail.join("</br>")
 
                     document.querySelector(".experience__company_2").innerText = data.english.experience.tma.time
-                    // document.querySelector(".experience__description_2").innerText = data.english.experience.tma.description
                     document.querySelector(".experience__tech_2").innerText = data.english.experience.tma.tech
                     document.querySelector(".experience__title_2").innerText = data.english.experience.tma.title
-                    document.querySelector(".experience__detail_21").innerText = data.english.experience.tma.detail[0]
-                    document.querySelector(".experience__detail_22").innerText = data.english.experience.tma.detail[1]
-                    // document.querySelector(".experience__detail_23").innerText = data.english.experience.tma.detail[2]
-
+                    document.querySelector(".experience__detail_2").innerHTML = data.english.experience.tma.detail.join("</br>")
+                    // Experience Details
+                    document.querySelector(".exp_detail_1").innerHTML = data.english.experience.vts.more_detail.join("</br>")
+                    document.querySelector(".exp_detail_2").innerHTML = data.english.experience.tma.more_detail.join("</br>")
                     // Section
                     document.querySelector(".section-title-profile").innerText = data.english.item[1]
                     document.querySelector(".section-title-education").innerText = data.english.item[2]
@@ -143,7 +135,7 @@
 
                                 <!-- Button to generate and download the pdf. Available for desktop. -->
                                 <div>
-                                    <a download="" href="/assets/pdf/myResume.pdf" class="home__button-movil">Download</a>
+                                    <a download="" href="/assets/pdf/NGUYENTRIHIEU_Resume.pdf" class="home__button-movil">Download</a>
                                 </div>
                             </div>
                             <div class="home__address bd-grid">
@@ -159,8 +151,10 @@
                                 
                                 <span class="home_information">
                                     <i class='bx bx-briefcase-alt'></i>
-                                    <!-- <p class="note"></p> -->
                                     <a href="https://hieunguyen810.github.io/3d-portfolio/">Portfolio</a>
+                                    </br>
+                                    <i class='bx bxs-file-doc'></i>
+                                    <a href="https://hieunguyen810.github.io/3d-portfolio/">Resume</a>
                                 </span>
                                 <!-- <a href="https://hieunguyen810.github.io/3d-portfolio/">https://hieunguyen810.github.io/3d-portfolio/</a> -->
                             </div>
@@ -265,29 +259,10 @@
                                 <span class="experience__company_1"></span>
                                 <!-- <p class="experience__description_1"></p>  -->
                                 <!-- <i class='bx bx-star'></i> -->
-                                <details>
-                                    <summary class="experience__detail_11"></summary>
-                                    <p class="exp_detail_11" data-html2canvas-ignore="true"></p>
-                                </details>
-                                <details>
-                                    <summary class="experience__detail_12"></summary>
-                                    <p class="exp_detail_12" data-html2canvas-ignore="true"></p>
-                                </details>
-                                <details>
-                                    <summary class="experience__detail_13"></summary>
-                                    <p class="exp_detail_13" data-html2canvas-ignore="true"></p>
-                                </details>
-                                <details>
-                                    <summary class="experience__detail_14"></summary>
-                                    <p class="exp_detail_14" data-html2canvas-ignore="true"></p>
-                                </details>
-                                <details>
-                                    <summary class="experience__detail_15"></summary>
-                                    <p class="exp_detail_15" data-html2canvas-ignore="true"></p>
-                                </details>
-                                <details>
-                                    <summary class="experience__detail_16"></summary>
-                                    <p class="exp_detail_16" data-html2canvas-ignore="true"></p>
+                                <p class="experience__detail_1"></p>
+                                <details data-html2canvas-ignore="true">
+                                    <summary class="experience__detail_tag">Details</summary>
+                                    <p class="exp_detail_1"></p>
                                 </details>
                                 <div class="experience__tech_1"></div>
                             </div>
@@ -303,9 +278,11 @@
                                 <span class="experience__company_2"></span>
                                 <!-- <p class="experience__description_2"></p>  -->
                                 <!-- <i class='bx bx-star'></i> -->
-                                <p class="experience__detail_21"></p>
-                                <p class="experience__detail_22"></p>
-                                <p class="experience__detail_23"></p>
+                                <p class="experience__detail_2"></p>
+                                <details data-html2canvas-ignore="true">
+                                    <summary class="experience__detail_tag">Details</summary>
+                                    <p class="exp_detail_2"></p>
+                                </details>
                                 <span class="experience__tech_2"></span>
                             </div>
                         </div>
