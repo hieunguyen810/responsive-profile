@@ -29,8 +29,16 @@
                 "title": "Software Engineer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Outsourcing for US company, working with big corporate clients. Developing, maintaining and deploying a web application.(VoIP platforms)",
-                    "- Build LDAP client, LDAP server and a Shell script for installation automatically"
+                    "- Outsourcing for American companies, with customers being many of the world's leading telecommunications companies",
+                    "- Develop new versions and provide patches on interface, performance, security,... for the application",
+                    "- Install servers, software, write shell scripts to automatically install, configure,..."
+                ],
+                "more_detail": [
+                    "- Working with VoIP platform systems, providing call processing functions, reporting, notification,...",
+                    "- Develop authentication function via LDAP, install OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
+                    "- Upgrade 3rd party software, fix security errors such as XSS, local file inclusion, misconfiguration, ...",
+                    "- Install test server on VMware Vcloud, Virtual Host Environment.",
+                    "- Develop call processing functions with C++, fix web interface errors, performance errors,..."
                 ],
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
@@ -41,10 +49,18 @@
                     "- Leading a small team with four members",
                     "- Collaborate with infrastructure team, network team, cybersecurity team, developer, and NOC to manage servers, connections, and security, ensure service availability 24/7, and service performance.",
                     "- Manage, maintain, install, and deploy over 20 applications in SIT, UAT and Production environment",
-                    "- Develop a backend API using Spring Boot, gRPC, and MongoDB",
-                    "- Research, design, and implement solutions for containerization (Docker), performance enhancements, and monitoring.",
+                    "- Create a backend API using Spring Boot, gRPC, and MongoDB",
+                    "- Research, design, and implement solutions for containerization, performance enhancements, and monitoring.",
                     "- Penetration testing for various web application projects. (SAST, DAST, and manual test). Primary responsibility for information security for the VTS Southern branch (VPN, Personal Computer, standards, regulations, etc.)",
                     "- Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
+                ],
+                "more_detail":[
+                    "- Manage System Engineer team from July 2022 with 4 members",
+                    "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure",
+                    "- Support teams to open connections, reverse proxy, tunnel, check network connection, firewall, VPN,...",
+                    "- Responsible for information security for the center. Check for CVE errors, ISO standards, Vietnamese standards, circulars, and government regulations on cybersecurity. Coordinate with other centers to test many products.",
+                    "- Learn and research service conversion from monolithic to microservices with Docker and Kubernetes.",
+                    "- Writing system administraction manual"
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
@@ -55,7 +71,7 @@
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
-            "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "Cheatsheet - How it works [2023]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
             "PortSwigger vulnerability labs"
@@ -94,8 +110,16 @@
                 "title": "Kỹ sư phần mềm",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Outsourcing cho công ty của Mỹ, với nhiều khách hàng là nhiều công ty lớn. Phát triển ứng dụng, cài đặt hệ thống, cung cấp bản vá lỗi (Nền tảng VoIP)",
-                    "- Dựng LDAP client, LDAP server, shell script để tự động cài đặt"
+                    "- Outsourcing cho công ty của Mỹ, với khách hàng là nhiều công ty viễn thông hàng đầu thế giới",
+                    "- Phát triển phiên bản mới và cung cấp bản vá lỗi về giao diện, hiệu năng, bảo mật, ... cho ứng dụng",
+                    "- Cài đặt server, phần mềm, viết shell script tự động cài đặt, cấu hình, ..."
+                ],
+                "more_detail":[
+                    "- Làm việc với hệ thống nền tảng VoIP, cung cấp các chứa năng xứ lý cuộc gọi, xuất báo cáo, thông báo, ...",
+                    "- Phát triển chức năng xác thực thông qua LDAP, cài đặt OpenLDAP client, server, viết script tự động cài đặt, export ldif file, ...",
+                    "- Nâng cấp các phần mềm bên thứ 3, fix các lỗi bảo mật như XSS, local file inclusion, misconfiguration, ...",
+                    "- Cài đặt server test trên VMware Vcloud, Virtual Host Environment. ",
+                    "- Phát triển các chức năng xứ lý cuộc gọi (C++), fix lỗi giao diện web, lỗi hiệu năng, ..."
                 ],
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
@@ -103,15 +127,25 @@
                 "title": "Kỹ sư DevSecOps",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
-                    "- Quản lý một team nhỏ với 4 thành viên ",
-                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, kết nối, an toàn thông tin, đảm bảo hiệu năng, tính khả dụng của dịch vụ 24/7, ",
-                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 20 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
+                    "- Quản lý một team nhỏ với 4 thành viên.",
+                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, đảm bảo kết nối, an toàn thông tin, hiệu năng, tính khả dụng của dịch vụ 24/7,...",
+                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 30 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
                     "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
-                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization (Docker), giám sát và cải thiện hiệu năng",
-                    "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho VTS miền Nam (VPN, Máy tính cá nhân, tiêu chuẩn, quy định, ...)",
-                    "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, ..."
+                    "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
+                    "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho toàn trung tâm với hơn 250 người (VPN, Tài khoản, Tiêu chuẩn, Quy định, ...)",
+                    "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, Nexus, ...",
+                    "- Viết các tài liệu thiết kế, vận hành, mô tả hệ thống"
                 ],
-                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
+                "more_detail":[
+                    "- Quản lý team System Engineer từ 7-2022 với 4 thành viên",
+                    "- Phối hợp team hạ tầng để cung cấp, cài đặt server, cấu hình LB, DNS trên hạ tầng Viettel Cloud",
+                    "- Hỗ trợ các team mở kết nối, reverse proxy, tunnel, kiểm tra kết nối mạng, firewall, VPN, ...",
+                    "- Chịu trách nhiệm chính về  an toàn thông tin cho trung tâm. Kiểm tra các lỗi CVE, các tiêu chuẩn ISO, tiêu chuẩn Việt Nam, thông tư, quy định của tập chính phủ về an ninh mạng. Phối hợp cùng các trung tâm khác pentest cho nhiều sản phẩm.",
+                    "- Tìm hiểu, nghiên cứu chuyển đổi dịch vụ từ monolithic sang microservices.",
+                    "- Cài đặt và cấu hình giám sát với Prometheus và Grafana.",
+                    "- Xây dựng luồng DevSecOps với các công nghệ như Jenkins, Gitlab, Ansible, Fortify, Sonarqube, Nexus, .... Đã áp dụng cho các hệ việc upcode trên các hệ thống Production."
+                ],
+                "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, Pfsense, ..."
             }
         },
         "project":[
@@ -120,7 +154,7 @@
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
-            "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "Cheatsheet - How it works [2023]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Nhận dạng rượu dựa trên quang phổ  ánh sáng bằng deep learning [2019] [Python, Tensorflow]",
             "PortSwigger vulnerability labs"
@@ -161,8 +195,16 @@
                 "time": "2-2021から4-2022まで | TMA Solutions",
                 "description": "アプリケーションの開発、保守. ユーザーエクスペリエンスを改善し、ウェブの脆弱性を修正するために、2 か月ごとにパッチをリリースします, ...このアプリケーションの新しいバージョンをリリースし、新しい機能を開発します。",
                 "detail": [
-                    "- Web アプリケーションの開発と保守。アプリケーションのパッチを 2 か月ごとに提供し、このアプリケーションの新しいバージョンを作成します。(VoIP プラットフォーム)",
-                    "- LDAP クライアント, LDAP テストサーバー"
+                    "- 米国企業向けのアウトソーシング。顧客は世界有数の電気通信会社の多くです。",
+                    "- 新しいバージョンを開発し、アプリケーションのインターフェイス、パフォーマンス、セキュリティなどに関するパッチを提供します",
+                    "- サーバー、ソフトウェアをインストールし、自動的にインストール、構成するためのシェル スクリプトを作成します..."
+                ],
+                "more_detail":[
+                    "- VoIP プラットフォーム システムと連携し、通話処理機能、レポート、通知などを提供します...",
+                    "- LDAP 経由の認証機能の開発、OpenLDAP クライアント、サーバーのインストール、自動インストール シェル スクリプトの作成、ldif ファイルのエクスポート、...",
+                    "- サードパーティ ソフトウェアをアップグレードし、XSS、ローカル ファイルの組み込み、構成ミスなどのセキュリティ エラーを修正します...",
+                    "- VMware Vcloud、仮想ホスト環境にテスト サーバーをインストールします。",
+                    "- C++ で呼び出し処理関数を開発し、Web インターフェイス エラー、パフォーマンス エラーなどを修正します..."
                 ],
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
@@ -171,12 +213,21 @@
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
-                    "- インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、バックエンド チーム、NOC と協力してサーバー、接続、セキュリティを管理し、サービスの可用性とパフォーマンスを確保します。",
-                    "- SIT、UAT、POC、および本番環境での DMS アプリケーションの管理、維持、インストール、展開",
-                    "- DevSecOps パイプラインの構築 (Jenskin, Gitlab, Ansible, Fortify, Sonarqube, ...)",
-                    "- コンテナ化、パフォーマンス強化、および監視のためのソリューションを研究、設計、および実装します。",
-                    "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS サザン ブランチの情報セキュリティに対する主な責任 (VPN、パーソナル コンピュータ、標準、規制など)",
-                    "- Spring Boot、gRPC、および MongoDB を使用してバックエンド API を開発します。"
+                    "- メンバー 4 人の小さなチームを率いる",
+                    "- インフラストラクチャ チーム、ネットワーク チーム、サイバーセキュリティ チーム、開発者、NOC と協力してサーバー、接続、セキュリティを管理し、24 時間 365 日のサービス可用性とサービス パフォーマンスを確保します。",
+                    "- SIT、UAT、実稼働環境で 20 を超えるアプリケーションを管理、保守、インストール、デプロイします",
+                    "- Spring Boot、gRPC、MongoDB を使用してバックエンド API を作成する",
+                    "- コンテナ化、パフォーマンス向上、監視のためのソリューションを研究、設計、実装します。",
+                    "- さまざまな Web アプリケーション プロジェクトのペネトレーション テスト (SAST、DAST、および手動テスト)。VTS 南部支店の情報セキュリティに対する主な責任 (VPN、パーソナル コンピューター、標準、規制など)",
+                    "- Jenkins、Apache Ant、Ansible、Gitlab、Fortify、Sonarqube などを使用して DevSecOps パイプラインを構築することで、デプロイ プロセスを加速します。"
+                ],
+                "more_detail":[
+                    "- 2022 年 7 月から 4 人のメンバーでシステム エンジニア チームを管理します",
+                    "- インフラストラクチャ チームと連携して、サーバーの提供、インストール、ロード バランシングの構成、Viettel クラウド インフラストラクチャ上の DNS",
+                    "- 接続のオープン、リバース プロキシ、トンネル、ネットワーク接続の確認、ファイアウォール、VPN などのサポート チーム...",
+                    "- センターの情報セキュリティを担当します。CVE エラー、ISO 標準、ベトナム標準、回覧、サイバーセキュリティに関する政府規制をチェックします。他のセンターと連携して多くの製品をテストします。",
+                    "- Docker と Kubernetes を使用して、モノリシックからマイクロサービスへのサービス変換を学習および研究します。",
+                    "- ライティングシステム管理マニュアル"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
@@ -187,7 +238,7 @@
             "応答性の高い履歴書 [2022] [HTML CSS, Javascript]",
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
-            "Exam Marking - Hand writing recognition [2020] [Python, OpenCV, Tkinter]",
+            "Cheatsheet - How it works [2023]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
             "PortSwigger vulnerability labs"

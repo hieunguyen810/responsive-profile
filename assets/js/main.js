@@ -97,11 +97,13 @@ let resumeButton = document.getElementById('resume-button')
 
 // Html2pdf options
 let opt = {
-    margin:       0,
-    filename:     'myResume.pdf',
+    margin:       1,
+    filename:     'NGUYENTRIHIEU_Resume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
-    jsPDF:        { format: 'a4', orientation: 'portrait' }
+    jsPDF:        { format: 'a4', orientation: 'portrait' },
+    enableLinks:  true,
+    // pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
   };
 
 // Function to call areaCv and Html2Pdf options 
@@ -111,13 +113,14 @@ function generateResume(){
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', () => {
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-    scaleCv()
+    // scaleCv()
 
     // 2. The PDF is generated
-    generateResume()
+    // generateResume()
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    setTimeout(removeScale, 5000)
+    // setTimeout(removeScale, 5000)
+    window.open('/assets/pdf/NGUYENTRIHIEU_Resume.pdf')
 })
 
 // Change language
@@ -153,24 +156,20 @@ fetch("assets/data.json")
                 document.querySelector(".section-title-social").innerText = data[attr].item[7]
                 // Experiece
                 document.querySelector(".experience__company_1").innerText = data[attr].experience.vts.time
-                // document.querySelector(".experience__description_1").innerText = data[attr].experience.vts.description
                 document.querySelector(".experience__tech_1").innerText = data[attr].experience.vts.tech
                 document.querySelector(".experience__title_1").innerText = data[attr].experience.vts.title
-                document.querySelector(".experience__detail_11").innerText = data[attr].experience.vts.detail[0]
-                document.querySelector(".experience__detail_12").innerText = data[attr].experience.vts.detail[1]
-                document.querySelector(".experience__detail_13").innerText = data[attr].experience.vts.detail[2]
-                document.querySelector(".experience__detail_14").innerText = data[attr].experience.vts.detail[3]
-                document.querySelector(".experience__detail_15").innerText = data[attr].experience.vts.detail[4]
-                document.querySelector(".experience__detail_16").innerText = data[attr].experience.vts.detail[5]
-
+                document.querySelector(".experience__detail_1").innerHTML = data[attr].experience.vts.detail.join("</br>")
 
                 document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
-                // document.querySelector(".experience__description_2").innerText = data[attr].experience.tma.description
                 document.querySelector(".experience__title_2").innerText = data[attr].experience.tma.title
                 document.querySelector(".experience__tech_2").innerText = data[attr].experience.tma.tech
-                document.querySelector(".experience__detail_21").innerText = data[attr].experience.tma.detail[0]
-                document.querySelector(".experience__detail_22").innerText = data[attr].experience.tma.detail[1]
-                // document.querySelector(".experience__detail_23").innerText = data[attr].experience.tma.detail[2]
+                document.querySelector(".experience__detail_2").innerHTML = data[attr].experience.tma.detail.join("</br>")
+
+                // Experience Details
+                console.log(data[attr].experience.tma.more_detail   )
+                document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.vts.more_detail.join("</br>")
+                document.querySelector(".exp_detail_2").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
+
                 // Project
                 document.querySelector(".project-1").innerText = data[attr].project[0]
                 document.querySelector(".project-2").innerText = data[attr].project[1]
