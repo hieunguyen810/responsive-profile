@@ -36,7 +36,7 @@
                 "more_detail": [
                     "- Working with VoIP platform systems, providing call processing functions, reporting, notification,...",
                     "- Develop authentication function via LDAP, install OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
-                    "- Upgrade 3rd party software, fix security errors such as XSS, local file inclusion, misconfiguration, ...",
+                    "- Ensure 3rd-party software keeping up-to-date, fix security vulnerabilities such as XSS, local file inclusion, misconfiguration, ...",
                     "- Install test server on VMware Vcloud, Virtual Host Environment.",
                     "- Develop call processing functions with C++, fix web interface errors, performance errors,..."
                 ],
@@ -58,9 +58,9 @@
                     "- Manage System Engineer team from July 2022 with 4 members",
                     "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure",
                     "- Support teams to open connections, reverse proxy, tunnel, check network connection, firewall, VPN,...",
-                    "- Responsible for information security for the center. Check for CVE errors, ISO standards, Vietnamese standards, circulars, and government regulations on cybersecurity. Coordinate with other centers to test many products.",
+                    "- Ensure cybersecurity best practices for the VTS Southern branch. Check for CVE errors, ISO standards, Vietnamese standards, circulars, and government regulations on cybersecurity. Coordinate with other centers to test many products.",
                     "- Learn and research service conversion from monolithic to microservices with Docker and Kubernetes.",
-                    "- Writing system administraction manual"
+                    "- Writing system administration manual, drawing cross functional flowchart, ..."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
@@ -134,7 +134,7 @@
                     "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho toàn trung tâm với hơn 250 người (VPN, Tài khoản, Tiêu chuẩn, Quy định, ...)",
                     "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, Nexus, ...",
-                    "- Viết các tài liệu thiết kế, vận hành, mô tả hệ thống"
+                    "- Viết các tài liệu thiết kế, vận hành, mô tả hệ thống, vẽ cross functional flowchart"
                 ],
                 "more_detail":[
                     "- Quản lý team System Engineer từ 7-2022 với 4 thành viên",
@@ -227,7 +227,7 @@
                     "- 接続のオープン、リバース プロキシ、トンネル、ネットワーク接続の確認、ファイアウォール、VPN などのサポート チーム...",
                     "- センターの情報セキュリティを担当します。CVE エラー、ISO 標準、ベトナム標準、回覧、サイバーセキュリティに関する政府規制をチェックします。他のセンターと連携して多くの製品をテストします。",
                     "- Docker と Kubernetes を使用して、モノリシックからマイクロサービスへのサービス変換を学習および研究します。",
-                    "- ライティングシステム管理マニュアル"
+                    "- システム管理マニュアルを作成する"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
