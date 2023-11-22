@@ -6,6 +6,15 @@ p, div
 {
     display: inline;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+a:hover {
+  color: blue;
+}
 br {
     line-height: 7px;
 }
