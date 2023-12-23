@@ -63,10 +63,10 @@
                     document.querySelector(".languages__circle_2").innerText = data.english.language[1]
                     document.querySelector(".languages__circle_3").innerText = data.english.language[2]                 
                     // Interests
-                    document.querySelector(".interests__name_1").innerText = data.english.interest[0]
-                    document.querySelector(".interests__name_2").innerText = data.english.interest[1]
-                    document.querySelector(".interests__name_3").innerText = data.english.interest[2]
-                    document.querySelector(".interests__name_4").innerText = data.english.interest[3]
+                    // document.querySelector(".interests__name_1").innerText = data.english.interest[0]
+                    // document.querySelector(".interests__name_2").innerText = data.english.interest[1]
+                    // document.querySelector(".interests__name_3").innerText = data.english.interest[2]
+                    // document.querySelector(".interests__name_4").innerText = data.english.interest[3]
                     
                 })
         </script>
@@ -203,7 +203,71 @@
                             </div>
                         </div>
                     </section>
-                    <!--========== INTERESTS ==========-->
+                            <!--========== SKILLS  ==========-->
+                            <section class="skills section" id="skills">
+                                <h2 class="section-title-skills"></h2>
+                                <div class="skills__content bd-grid">
+                                    <ul class="skills__data">
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="vscode-icons:file-type-python"></span>
+                                            <span class="skills_circle">&nbsp; Python</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:java"></span>
+                                            <span class="skills_circle">&nbsp; Java</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:linux-tux"></span>
+                                            <span class="skills_circle">&nbsp; Linux</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="devicon:jenkins"></span>
+                                            <span class="skills_circle">&nbsp; Jenkins</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="skills__data">
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="cib:spring"></span>
+                                            <span class="skills_circle">&nbsp; Spring Boot</span>
+                                        </li>
+                                        <!-- <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:tensorflow"></span>
+                                            <span class="skills_circle">&nbsp; Tensorflow</span>
+                                        </li> -->
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="devicon:openstack"></span>
+                                            <span class="skills_circle">&nbsp; Openstack</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <i class='bx bx-bug'></i>
+                                            <span class="skills_circle">&nbsp; Security</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:aws"></span>
+                                            <span class="skills_circle">&nbsp; AWS</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="skills__data">
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="cib:oracle"></span>
+                                            <span class="skills_circle">&nbsp;Oracle</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:mysql-icon"></span>
+                                            <span class="skills_circle">&nbsp; MySQL</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="mdi:local-area-network"></span>
+                                            <span class="skills_circle">&nbsp; Network</span>
+                                        </li>
+                                        <li class="skills__name">
+                                            <span class="iconify" data-icon="logos:kubernetes"></span>
+                                            <span class="skills_circle">&nbsp; Kubernetes</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                    <!-- ========== INTERESTS ==========
                     <section class="interests section">
                         <h2 class="section-title-interests">Interests</h2>
 
@@ -225,7 +289,7 @@
                                 <span class="interests__name_4"></span>
                             </div>
                         </div>
-                    </section>
+                    </section> -->
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
                         <h2 class="section-title-languages"></h2>
@@ -285,70 +349,6 @@
                                 </details>
                                 <span class="experience__tech_2"></span>
                             </div>
-                        </div>
-                    </section>
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title-skills"></h2>
-                        <div class="skills__content bd-grid">
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="vscode-icons:file-type-python"></span>
-                                    <span class="skills_circle">&nbsp; Python</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:java"></span>
-                                    <span class="skills_circle">&nbsp; Java</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:linux-tux"></span>
-                                    <span class="skills_circle">&nbsp; Linux</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="devicon:jenkins"></span>
-                                    <span class="skills_circle">&nbsp; Jenkins</span>
-                                </li>
-                            </ul>
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="cib:spring"></span>
-                                    <span class="skills_circle">&nbsp; Spring Boot</span>
-                                </li>
-                                <!-- <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:tensorflow"></span>
-                                    <span class="skills_circle">&nbsp; Tensorflow</span>
-                                </li> -->
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="devicon:openstack"></span>
-                                    <span class="skills_circle">&nbsp; Openstack</span>
-                                </li>
-                                <li class="skills__name">
-                                    <i class='bx bx-bug'></i>
-                                    <span class="skills_circle">&nbsp; Security</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:aws"></span>
-                                    <span class="skills_circle">&nbsp; AWS</span>
-                                </li>
-                            </ul>
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="cib:oracle"></span>
-                                    <span class="skills_circle">&nbsp;Oracle</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:mysql-icon"></span>
-                                    <span class="skills_circle">&nbsp; MySQL</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="mdi:local-area-network"></span>
-                                    <span class="skills_circle">&nbsp; Network</span>
-                                </li>
-                                <li class="skills__name">
-                                    <span class="iconify" data-icon="logos:kubernetes"></span>
-                                    <span class="skills_circle">&nbsp; Kubernetes</span>
-                                </li>
-                            </ul>
                         </div>
                     </section>
                     <!--========== PERSONAL PROJECT ==========-->

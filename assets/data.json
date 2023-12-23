@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Passionate DevSecOps engineer with 2.5 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation system and Networking. Skilled in backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 3 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -29,13 +29,13 @@
                 "title": "Software Engineer",
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
-                    "- Outsourcing for American companies, with customers being many of the world's leading telecommunications companies",
-                    "- Develop new versions and provide patches on interface, performance, security,... for the application",
-                    "- Install servers, software, write shell scripts to automatically install, configure,..."
+                    "- Provided outsourced software development services to leading American companies within the telecommunications industry.",
+                    "- Managed the software lifecycle for applications,including developing new versions, implementing feature enhancements, and delivering timely security patches.",
+                    "- Mastered server and software installation, including scripting automated processes for efficient configuration and deployment."
                 ],
                 "more_detail": [
                     "- Working with VoIP platform systems, providing call processing functions, reporting, notification,...",
-                    "- Develop authentication function via LDAP, install OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
+                    "- Develop authentication function via LDAP, installg b OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
                     "- Ensure 3rd-party software keeping up-to-date, fix security vulnerabilities such as XSS, local file inclusion, misconfiguration, ...",
                     "- Install test server on VMware Vcloud, Virtual Host Environment.",
                     "- Develop call processing functions with C++, fix web interface errors, performance errors,..."
@@ -46,13 +46,13 @@
                 "title": "DevSecOps Engineer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
-                    "- Leading a small team with four members",
-                    "- Collaborate with infrastructure team, network team, cybersecurity team, developer, and NOC to manage servers, connections, and security, ensure service availability 24/7, and service performance.",
-                    "- Manage, maintain, install, and deploy over 20 applications in SIT, UAT and Production environment",
-                    "- Create a backend API using Spring Boot, gRPC, and MongoDB",
-                    "- Research, design, and implement solutions for containerization, performance enhancements, and monitoring.",
-                    "- Penetration testing for various web application projects. (SAST, DAST, and manual test). Primary responsibility for information security for the VTS Southern branch (VPN, Personal Computer, standards, regulations, etc.)",
-                    "- Accelerate deploying process by building DevSecOps pipeline with Jenkins, Apache Ant, Ansible, Gitlab, Fortify, Sonarqube, ..."
+                    "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
+                    "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams.",
+                    "- Managed, maintained, and deployed over 20 applications across SIT, UAT, and production environments, ensuring smooth operation and swift incident resolution.",
+                    "- Established automated monitoring systems for proactive issue identification and rapid remediation.",
+                    "- Owned information security for the VTS Southern branch, encompassing VPN configuration, PC security, and adherence to standards and regulations.",
+                    "- Performed comprehensive penetration testing (SAST, DAST, and manual) for web applications, contributing to a robust security posture.",
+                    "- Spearheaded the development and implementation of a DevSecOps pipeline utilizing Jenkins, Apache Ant, Ansible, GitLab, Fortify, and SonarQube for accelerated delivery with integrated security."
                 ],
                 "more_detail":[
                     "- Manage System Engineer team from July 2022 with 4 members",
@@ -127,10 +127,9 @@
                 "title": "Kỹ sư DevSecOps",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
-                    "- Quản lý một team nhỏ với 4 thành viên.",
-                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, đảm bảo kết nối, an toàn thông tin, hiệu năng, tính khả dụng của dịch vụ 24/7,...",
-                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 30 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
-                    "- Phát triển backend API sử dụng Spring Boot, MongoDB, gRPC",
+                    "- Dẫn dắt một nhóm với 4 thành viên quản lý hạ tầng, kết nối, an toàn thông tin để đảm bảo ứng dụng hoạt động 24/7 và tối ưu.",
+                    "- Phối hợp với team hạ tầng, team network, team không gian mạng, team backend, NOC để quản lý servers, đảm bảo kết nối, an toàn thông tin, hiệu năng.",
+                    "- Quản lý, bảo trì, cài đặt, triển khai hơn 20 ứng dụng ở các môi trường SIT, UAT, POC và Production.",
                     "- Nghiên cứu, thiết kế và triển khai các phương án containerization, giám sát và cải thiện hiệu năng",
                     "- Pentesting cho nhiều hệ thống quan trọng (SAST, DAST và manual test). Chịu trách nhiệm chính về an toàn thông tin cho toàn trung tâm với hơn 250 người (VPN, Tài khoản, Tiêu chuẩn, Quy định, ...)",
                     "- Xây dựng DevSecOps pipeline với Jenkins, Gitlab, Ansible, Fortify, Sonarqube, Nexus, ...",

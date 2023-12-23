@@ -20,7 +20,7 @@ br {
 }
 li {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 0px;
   list-style-type: circle;
 }
 details {
@@ -282,7 +282,7 @@ img {
 
 .bd-grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .l-header {
   width: 100%;
@@ -511,8 +511,9 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 
 .skills__content{
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr)
 }
+
 .skills__content{
   gap: 0;
 }
