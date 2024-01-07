@@ -35,8 +35,8 @@
                 ],
                 "more_detail": [
                     "- Working with VoIP platform systems, providing call processing functions, reporting, notification,...",
-                    "- Develop authentication function via LDAP, installg b OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
-                    "- Ensure 3rd-party software keeping up-to-date, fix security vulnerabilities such as XSS, local file inclusion, misconfiguration, ...",
+                    "- Develop authentication function via LDAP, install OpenLDAP client, server, write automatically install shell scripts, export ldif file, ...",
+                    "- Proactively maintained the security posture by ensure 3rd-party software keeping up-to-date, fix security vulnerabilities such as XSS, local file inclusion, misconfiguration, ...",
                     "- Install test server on VMware Vcloud, Virtual Host Environment.",
                     "- Develop call processing functions with C++, fix web interface errors, performance errors,..."
                 ],
@@ -57,10 +57,10 @@
                 "more_detail":[
                     "- Manage System Engineer team from July 2022 with 4 members",
                     "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure",
-                    "- Support teams to open connections, reverse proxy, tunnel, check network connection, firewall, VPN,...",
+                    "- Provided comprehensive network support to internal teams, assisting with opening connections, configuring reverse proxies and tunnels, verifying network connectivity, firewall rules, and VPN configurations.",
                     "- Ensure cybersecurity best practices for the VTS Southern branch. Check for CVE errors, ISO standards, Vietnamese standards, circulars, and government regulations on cybersecurity. Coordinate with other centers to test many products.",
                     "- Learn and research service conversion from monolithic to microservices with Docker and Kubernetes.",
-                    "- Writing system administration manual, drawing cross functional flowchart, ..."
+                    "- Authored comprehensive system administration manuals and documented cross-functional workflows, promoting operational transparency and efficient knowledge sharing."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
             }
