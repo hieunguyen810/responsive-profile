@@ -13,12 +13,12 @@
             "Personal Project and Courses",
             "Social"
         ],
-        "title":"Site Reliability Engineer",
+        "title":"DevSecOps Engineer",
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Highly motivated Site Reliability Engineer with 3 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 3 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -43,7 +43,7 @@
                 "tech": "Technologies: Java, Bash, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware VCloud, ..."
             },
             "vts":{
-                "title": "Site Reliability Engineer",
+                "title": "DevSecOps Engineer",
                 "time": "From 4-2022 to present | Viettel Solutions", 
                 "detail": [
                     "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
@@ -93,13 +93,13 @@
             "Project cá nhân và khóa học",
             "Mạng xã hội"
         ],
-        "title":"Site Reliability Engineer",
+        "title":"DevSecOps Engineer",
         "address": "HCMC",
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư DevSecOps với 2.5 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
+        "profile": "Kỹ sư DevSecOps với 3 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -124,7 +124,7 @@
                 "tech": "Công nghệ: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
             "vts":{
-                "title": "Site Reliability Engineer",
+                "title": "DevSecOps Engineer",
                 "time": "From 4-2022 to present | Viettel Solutions",
                 "detail": [
                     "- Dẫn dắt một nhóm với 4 thành viên quản lý hạ tầng, kết nối, an toàn thông tin để đảm bảo ứng dụng hoạt động 24/7 và tối ưu.",
@@ -182,7 +182,7 @@
         "phone": "0706987057",
         "note": "より良い体験のために私のレスポンシブプロファイルにアクセスしてください",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 2.5 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
+        "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 3 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
         "education": {
             "degree": "電子-電気通信の学士号",
             "studies": "ホーチミン市工科大学 (BKU)",
@@ -208,7 +208,7 @@
                 "tech": "技術: Java, C++, Spring framework, RHEL, CentOS, Burp Suite, MySQL, OpenLDAP, Tomcat, VoIP, VMware Vcloud, ..."
             },
             "vts":{
-                "title": "Site Reliability ソフトウェア",
+                "title": "DevSecOps ソフトウェア",
                 "time": "4-2022から現在まで | Viettel Solutions",
                 "description": "システム エンジニア、サイバーセキュリティ エンジニア、Java バックエンド デベロッパーとしてのタスクを並列化します。",
                 "detail": [
