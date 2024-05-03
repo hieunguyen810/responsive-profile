@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Highly motivated DevSecOps Engineer with 3 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 3+ years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -70,11 +70,12 @@
             "Cource: AWS Cloud Operator (SysOps) [2023]",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
-            "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
+            "Sample serverless api [2024] [AWS localstack, Serverless, NodeJS]",
             "Cheatsheet - How it works [2023]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Alcohol recognition based on light spectrum [2019] [Python, Tensorflow]",
-            "PortSwigger vulnerability labs"
+            "PortSwigger vulnerability labs",
+            "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]"
         ],
         "language": ["Vietnames", "English", "Japanese"],
         "interest": ["Football", "Anime", "Cooking", "Reading"]
@@ -99,7 +100,7 @@
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư DevSecOps với 3 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
+        "profile": "Kỹ sư DevSecOps với 3+ năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -152,11 +153,12 @@
             "Cource: AWS Cloud Operator (SysOps) [2023]",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
-            "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
+            "Sample serverless api [2024] [AWS localstack, Serverless, NodeJS]",
             "Cheatsheet - How it works [2023]",
             "3D Portfolio [2023] [HTML, CSS, ThreeJS]",
             "Nhận dạng rượu dựa trên quang phổ  ánh sáng bằng deep learning [2019] [Python, Tensorflow]",
-            "PortSwigger vulnerability labs"
+            "PortSwigger vulnerability labs",
+            "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]"
             
         ],
         "language": ["Tiếng Việt", "Tiếng Anh", "Tiếng Nhật"],
