@@ -155,10 +155,15 @@ fetch("assets/data.json")
                 document.querySelector(".section-title-project").innerText = data[attr].item[6]
                 document.querySelector(".section-title-social").innerText = data[attr].item[7]
                 // Experiece
-                document.querySelector(".experience__company_1").innerText = data[attr].experience.vts.time
-                document.querySelector(".experience__tech_1").innerText = data[attr].experience.vts.tech
-                document.querySelector(".experience__title_1").innerText = data[attr].experience.vts.title
-                document.querySelector(".experience__detail_1").innerHTML = data[attr].experience.vts.detail.join("</br>")
+                document.querySelector(".experience__company_1").innerText = data[attr].experience.ocb.time
+                document.querySelector(".experience__tech_1").innerText = data[attr].experience.ocb.tech
+                document.querySelector(".experience__title_1").innerText = data[attr].experience.ocb.title
+                document.querySelector(".experience__detail_1").innerHTML = data[attr].experience.ocb.detail.join("</br>")
+
+                document.querySelector(".experience__company_2").innerText = data[attr].experience.vts.time
+                document.querySelector(".experience__title_2").innerText = data[attr].experience.vts.title
+                document.querySelector(".experience__tech_2").innerText = data[attr].experience.vts.tech
+                document.querySelector(".experience__detail_2").innerHTML = data[attr].experience.vts.detail.join("</br>")
 
                 document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
                 document.querySelector(".experience__title_2").innerText = data[attr].experience.tma.title
@@ -167,6 +172,7 @@ fetch("assets/data.json")
 
                 // Experience Details
                 console.log(data[attr].experience.tma.more_detail   )
+                document.querySelector(".exp_detail_3").innerHTML = data[attr].experience.ocb.more_detail.join("</br>")
                 document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.vts.more_detail.join("</br>")
                 document.querySelector(".exp_detail_2").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
 

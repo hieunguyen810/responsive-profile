@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Highly motivated DevSecOps Engineer with 3+ years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 3.5 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -44,7 +44,7 @@
             },
             "vts":{
                 "title": "DevSecOps Engineer",
-                "time": "From 4-2022 to present | Viettel Solutions", 
+                "time": "From 4-2022 to 5-2024 | Viettel Solutions", 
                 "detail": [
                     "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
                     "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams.",
@@ -63,6 +63,20 @@
                     "- Authored comprehensive system administration manuals and documented cross-functional workflows, promoting operational transparency and efficient knowledge sharing."
                 ],
                 "tech": "Technologies: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
+            },
+            "ocb":{
+                "title": "DevOps Engineer",
+                "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
+                "detail": [
+                    "- Card operarion, digital payment, ...",
+                    "- Building continuos deployment ",
+                    "- GitOps"
+                ],
+                "more_detail":[
+                    "- ",
+                    "- "
+                ],
+                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, PCI-DSS, ..."
             }
         },
         "project":[
@@ -100,7 +114,7 @@
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư DevSecOps với 3+ năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
+        "profile": "Kỹ sư DevSecOps với 3.5 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -146,6 +160,19 @@
                     "- Xây dựng luồng DevSecOps với các công nghệ như Jenkins, Gitlab, Ansible, Fortify, Sonarqube, Nexus, .... Đã áp dụng cho các hệ việc upcode trên các hệ thống Production."
                 ],
                 "tech": "Công nghệ: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, Pfsense, ..."
+            },
+            "ocb":{
+                "title": "DevOps Engineer",
+                "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
+                "detail": [
+                    "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
+                    "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams."
+                ],
+                "more_detail":[
+                    "- Manage System Engineer team from July 2022 with 4 members",
+                    "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure"
+                ],
+                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, ..."
             }
         },
         "project":[
@@ -184,7 +211,7 @@
         "phone": "0706987057",
         "note": "より良い体験のために私のレスポンシブプロファイルにアクセスしてください",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 3 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
+        "profile": "ウェブアプリケーションの開発、配備、保守、および保護に 3.5 年の経験を持つソフトウェア エンジニア。 ネットワーキングと機械学習の豊富なバックグラウンド、ウェブ アプリケーション バックエンドとシステム エンジニアリングの実務経験、サイバーセキュリティへの関心。",
         "education": {
             "degree": "電子-電気通信の学士号",
             "studies": "ホーチミン市工科大学 (BKU)",
@@ -231,6 +258,19 @@
                     "- システム管理マニュアルを作成する"
                 ],
                 "tech": "技術: Java, Spring Boot, Oracle Database, MongoDB, PostgreSQL, gRPC, Burp Suite, Kali Linux, CentOS, Tomcat, ISO security standard, Jenkins, Docker, Ansible, OpenStack, Nginx, Haproxy, Prometheus, Grafana, ..."
+            }, 
+            "ocb":{
+                "title": "DevOps Engineer",
+                "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
+                "detail": [
+                    "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
+                    "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams."
+                ],
+                "more_detail":[
+                    "- Manage System Engineer team from July 2022 with 4 members",
+                    "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure"
+                ],
+                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, ..."
             }
         },
         "project":[
