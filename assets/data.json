@@ -68,15 +68,15 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Card operarion, digital payment, ...",
-                    "- Building continuos deployment ",
-                    "- GitOps"
+                    "- Build Kubernetes cluster, building GitOps process, ...",
+                    "- ",
+                    "- "
                 ],
                 "more_detail":[
                     "- ",
                     "- "
                 ],
-                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, PCI-DSS, ..."
+                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Way4, PCI-DSS, ..."
             }
         },
         "project":[
@@ -165,14 +165,16 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
-                    "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams."
+                    "- Xây dựng hệ thống chạy trên Kubernetes, luồng GitOps, giám sát, ...",
+                    "- Tự động hóa quá trình xử lý dữ liệu", 
+                    "- Tiếp nhận, phân tích và xử lý các sự cố phát sinh trong quá trình vận hành thẻ", 
+                    "- Hỗ trợ trích xuất dữ liệu database cho nghiệp vụ khi có yêu cầu."
                 ],
                 "more_detail":[
-                    "- Manage System Engineer team from July 2022 with 4 members",
-                    "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure"
+                    "- ",
+                    "- "
                 ],
-                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, ..."
+                "tech": "CÔng nghệ: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
             }
         },
         "project":[
