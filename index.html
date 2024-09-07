@@ -31,18 +31,24 @@
                     document.querySelector(".education__studies").innerText = data.english.education.studies
                     document.querySelector(".education__year").innerText = data.english.education.year
                     // Experience
-                    document.querySelector(".experience__company_1").innerText = data.english.experience.vts.time
-                    document.querySelector(".experience__tech_1").innerText = data.english.experience.vts.tech
-                    document.querySelector(".experience__title_1").innerText = data.english.experience.vts.title
-                    document.querySelector(".experience__detail_1").innerHTML = data.english.experience.vts.detail.join("</br>")
+                    document.querySelector(".experience__company_1").innerText = data.english.experience.ocb.time
+                    document.querySelector(".experience__tech_1").innerText = data.english.experience.ocb.tech
+                    document.querySelector(".experience__title_1").innerText = data.english.experience.ocb.title
+                    document.querySelector(".experience__detail_1").innerHTML = data.english.experience.ocb.detail.join("</br>")
 
-                    document.querySelector(".experience__company_2").innerText = data.english.experience.tma.time
-                    document.querySelector(".experience__tech_2").innerText = data.english.experience.tma.tech
-                    document.querySelector(".experience__title_2").innerText = data.english.experience.tma.title
-                    document.querySelector(".experience__detail_2").innerHTML = data.english.experience.tma.detail.join("</br>")
+                    document.querySelector(".experience__company_2").innerText = data.english.experience.vts.time
+                    document.querySelector(".experience__tech_2").innerText = data.english.experience.vts.tech
+                    document.querySelector(".experience__title_2").innerText = data.english.experience.vts.title
+                    document.querySelector(".experience__detail_2").innerHTML = data.english.experience.vts.detail.join("</br>")
+
+                    document.querySelector(".experience__company_3").innerText = data.english.experience.tma.time
+                    document.querySelector(".experience__tech_3").innerText = data.english.experience.tma.tech
+                    document.querySelector(".experience__title_3").innerText = data.english.experience.tma.title
+                    document.querySelector(".experience__detail_3").innerHTML = data.english.experience.tma.detail.join("</br>")
                     // Experience Details
-                    document.querySelector(".exp_detail_1").innerHTML = data.english.experience.vts.more_detail.join("</br>")
-                    document.querySelector(".exp_detail_2").innerHTML = data.english.experience.tma.more_detail.join("</br>")
+                    document.querySelector(".exp_detail_1").innerHTML = data.english.experience.ocb.more_detail.join("</br>")
+                    document.querySelector(".exp_detail_2").innerHTML = data.english.experience.vts.more_detail.join("</br>")
+                    document.querySelector(".exp_detail_3").innerHTML = data.english.experience.tma.more_detail.join("</br>")
                     // Section
                     document.querySelector(".section-title-profile").innerText = data.english.item[1]
                     document.querySelector(".section-title-education").innerText = data.english.item[2]
@@ -250,12 +256,12 @@
                                     </ul>
                                     <ul class="skills__data">
                                         <li class="skills__name">
-                                            <span class="iconify" data-icon="cib:oracle"></span>
+                                            <span class="iconify" data-icon="devicon:oracle"></span>
                                             <span class="skills_circle">&nbsp;Oracle</span>
                                         </li>
                                         <li class="skills__name">
-                                            <span class="iconify" data-icon="logos:mysql-icon"></span>
-                                            <span class="skills_circle">&nbsp; MySQL</span>
+                                            <span class="iconify" data-icon="devicon:argocd"></span>
+                                            <span class="skills_circle">&nbsp; ArgoCD</span>
                                         </li>
                                         <li class="skills__name">
                                             <span class="iconify" data-icon="mdi:local-area-network"></span>
@@ -349,6 +355,25 @@
                                     <p class="exp_detail_2"></p>
                                 </details>
                                 <span class="experience__tech_2"></span>
+                            </div>
+                        </div>
+                        </br>
+                        <div class="experience__container bd-grid">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title_3"></h3>
+                                <span class="experience__company_3"></span>
+                                <!-- <p class="experience__description_2"></p>  -->
+                                <!-- <i class='bx bx-star'></i> -->
+                                <p class="experience__detail_3"></p>
+                                <details data-html2canvas-ignore="true">
+                                    <summary class="experience__detail_tag">Details</summary>
+                                    <p class="exp_detail_3"></p>
+                                </details>
+                                <span class="experience__tech_3"></span>
                             </div>
                         </div>
                     </section>

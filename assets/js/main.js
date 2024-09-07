@@ -113,14 +113,14 @@ function generateResume(){
 // When the button is clicked, it executes the three functions
 resumeButton.addEventListener('click', () => {
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-    // scaleCv()
+    scaleCv()
 
     // 2. The PDF is generated
-    // generateResume()
+    generateResume()
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-    // setTimeout(removeScale, 5000)
-    window.open('/responsive-profile/assets/pdf/NGUYENTRIHIEU_Resume.pdf')
+    setTimeout(removeScale, 5000)
+    // window.open('/responsive-profile/assets/pdf/NGUYENTRIHIEU_Resume.pdf')
 })
 
 // Change language
@@ -155,10 +155,15 @@ fetch("assets/data.json")
                 document.querySelector(".section-title-project").innerText = data[attr].item[6]
                 document.querySelector(".section-title-social").innerText = data[attr].item[7]
                 // Experiece
-                document.querySelector(".experience__company_1").innerText = data[attr].experience.vts.time
-                document.querySelector(".experience__tech_1").innerText = data[attr].experience.vts.tech
-                document.querySelector(".experience__title_1").innerText = data[attr].experience.vts.title
-                document.querySelector(".experience__detail_1").innerHTML = data[attr].experience.vts.detail.join("</br>")
+                document.querySelector(".experience__company_1").innerText = data[attr].experience.ocb.time
+                document.querySelector(".experience__tech_1").innerText = data[attr].experience.ocb.tech
+                document.querySelector(".experience__title_1").innerText = data[attr].experience.ocb.title
+                document.querySelector(".experience__detail_1").innerHTML = data[attr].experience.ocb.detail.join("</br>")
+
+                document.querySelector(".experience__company_2").innerText = data[attr].experience.vts.time
+                document.querySelector(".experience__title_2").innerText = data[attr].experience.vts.title
+                document.querySelector(".experience__tech_2").innerText = data[attr].experience.vts.tech
+                document.querySelector(".experience__detail_2").innerHTML = data[attr].experience.vts.detail.join("</br>")
 
                 document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
                 document.querySelector(".experience__title_2").innerText = data[attr].experience.tma.title
@@ -167,6 +172,7 @@ fetch("assets/data.json")
 
                 // Experience Details
                 console.log(data[attr].experience.tma.more_detail   )
+                document.querySelector(".exp_detail_3").innerHTML = data[attr].experience.ocb.more_detail.join("</br>")
                 document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.vts.more_detail.join("</br>")
                 document.querySelector(".exp_detail_2").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
 
