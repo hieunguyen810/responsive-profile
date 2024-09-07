@@ -159,7 +159,7 @@ body.scale-cv{
 
 .scale-cv .resume__left,
 .scale-cv .resume__right{
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .scale-cv .home__img{
@@ -168,7 +168,7 @@ body.scale-cv{
 }
 
 .scale-cv .home__container{
-  gap: 1.5rem;
+  gap: 0.25rem;
 }
 
 .scale-cv .home__data{
@@ -177,18 +177,18 @@ body.scale-cv{
 
 .scale-cv .home__address,
 .scale-cv .social__container{
-  gap: .75rem;
+  gap: .5rem;
 }
 
 .scale-cv .home__icon,
 .scale-cv .social__icon
 .scale-cv .interests__icon{
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 .scale-cv .education__container,
 .scale-cv .experience__container{
-  gap: 1rem;
+  gap: 0.25rem;
 }
 
 .scale-cv .education__time,
@@ -277,13 +277,13 @@ img {
 .bd-container{
     max-width: 968px;
     width: calc(100% - 3rem);
-    margin-left: var(--mb-3);
-    margin-right: var(--mb-3);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
 }
 
 .bd-grid {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .l-header {
   width: 100%;
@@ -613,7 +613,7 @@ img {
 
 .resume__left,
 .resume__right{
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .section-title-social,

@@ -68,20 +68,21 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Build Kubernetes cluster, building GitOps process, ...",
-                    "- ",
-                    "- "
+                    "- Managed and maintained the core card firmware. Deployed and configured Kubernetes clusters, implemented robust monitoring systems and design GitOps pipelines to streamline infrastructure provisioning.",
+                    "- Developed efficient PowerShell scripts to automate the import and reconciliation of payment service files, improving operational efficiency and reducing manual errors.",
+                    "- Maintained Way4 core card, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrustructure and ensure PCI-DSS compliances",
+                    "- Provided technical assistance to payment accountants, assisting with data exports from the database and resolving any related queries."
                 ],
                 "more_detail":[
                     "- ",
                     "- "
                 ],
-                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Way4, PCI-DSS, ..."
+                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
             }
         },
         "project":[
+            "Course: AWS Cloud Operator (SysOps) [2024]",
             "Course: AWS Cloud Practitioner Essentials [2023]",
-            "Cource: AWS Cloud Operator (SysOps) [2023]",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Graduation thesis: Signal demodulation with Machine learning in OLED Visible Light Communication [1 year research in laboratory - 2021] [Python, PNN, GRNN, DTNN]",
             "Sample serverless api [2024] [AWS localstack, Serverless, NodeJS]",
@@ -165,10 +166,10 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Xây dựng hệ thống chạy trên Kubernetes, luồng GitOps, giám sát, ...",
-                    "- Tự động hóa quá trình xử lý dữ liệu", 
-                    "- Tiếp nhận, phân tích và xử lý các sự cố phát sinh trong quá trình vận hành thẻ", 
-                    "- Hỗ trợ trích xuất dữ liệu database cho nghiệp vụ khi có yêu cầu."
+                    "- Quản lý và vận hành core card firmware. Triển khai, cấu hình Kubernetes clusters, xây dựng hệ thống giám sát, thiết kế  GitOps pipelines phục vụ triển khai ứng dụng và hạ tầng.",
+                    "- Lập trình Powershell scripts cho việc tự động hóa quá trình import, reconcilation payment service files cải thiện vận hành, giảm thiểu lỗi thủ công.", 
+                    "- Duy trì hoạt động hệ thống Core thẻ Way4, phối hợp với cái tổ chức thẻ (MasterCard, Visa, JCB, Napas) để cải thiện chức năng hệ thống, nâng cấp hạ tầng và đảm bảo PCI-DSS Compliances", 
+                    "- Hỗ trợ kế toán thanh toán truy xuát dữ liệu database"
                 ],
                 "more_detail":[
                     "- ",
@@ -178,8 +179,8 @@
             }
         },
         "project":[
+            "Course: AWS Cloud Operator (SysOps) [2024]",
             "Course: AWS Cloud Practitioner Essentials [2023]",
-            "Cource: AWS Cloud Operator (SysOps) [2023]",
             "Responsive, multiple languages resume [2022] [HTML, CSS, Javascript]",
             "Luận văn tốt nghiệp: Ứng dụng Machine learning giải điều chế tín hiệu quang bằng ánh sáng khả kiến OLED [2021] [Python, PNN, GRNN, DTNN]",
             "Sample serverless api [2024] [AWS localstack, Serverless, NodeJS]",
@@ -265,19 +266,21 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Led a four-person team to successfully manage server infrastructure, network connectivity, and application security for 24/7 service availability and optimal performance.",
-                    "- Fostered a collaborative environment by coordinating effectively with infrastructure, network, cybersecurity, development, and NOC teams."
+                    "- コアカードのファームウェアを管理および保守しました。Kubernetes クラスターを展開および構成し、堅牢な監視システムを実装し、GitOps パイプラインを設計して、アプリケーションとインフラストラクチャのプロビジョニングを効率化しました",
+                    "- 効率的な PowerShell スクリプトを開発して、支払いサービス ファイルのインポートと調整を自動化し、運用効率を向上させ、手動エラーを削減しました",
+                    "- Way4 コアカードを保守し、主要な支払いネットワーク (Mastercard、Visa、JCB、Napas) と協力して、システム機能を強化し、インフラストラクチャをアップグレードし、PCI-DSS コンプライアンスを確保しました",
+                    "- 支払い会計担当者に技術支援を提供し、データベースからのデータ エクスポートを支援し、関連するクエリを解決しました。"
                 ],
                 "more_detail":[
-                    "- Manage System Engineer team from July 2022 with 4 members",
-                    "- Coordinate with the infrastructure team to provide, install servers, configure Load Balancing, DNS on Viettel Cloud infrastructure"
+                    "- ",
+                    "- "
                 ],
-                "tech": "Technologies: Way4, Kubernetes, ArgoCD, Jenkins, Oracle DB, ..."
+                "tech": "テクノロジー: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
             }
         },
         "project":[
+            "コース: AWS Cloud Operator (SysOps) [2024]",
             "コース: AWS Cloud Practitioner Essentials [2023]",
-            "Cource: AWS Cloud Operator (SysOps) [2023]",
             "応答性の高い履歴書 [2022] [HTML CSS, Javascript]",
             "卒業論文: Signal demodulation with Machine learning in OLED Visible Light Communication [2021] [Python, PNN, GRNN, DTNN]",
             "漢字認識 [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]",
