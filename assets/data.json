@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Highly motivated DevSecOps Engineer with 3.5 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 4 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -68,8 +68,8 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Managed and maintained the core card firmware. Deployed and configured Kubernetes clusters, implemented robust monitoring systems and design GitOps pipelines to streamline infrastructure provisioning.",
-                    "- Developed efficient PowerShell scripts to automate the import and reconciliation of payment service files, improving operational efficiency and reducing manual errors.",
+                    "- Managed and maintained the core card firmware. Deployed and configured Kubernetes clusters, implemented robust monitoring systems, streamlined infrastructure provisioning and incident response with ChatOps integration and GitOps pipelines",
+                    "- Developed efficient PowerShell scripts to automate the settlement file processing, improving operational efficiency and reducing manual errors.",
                     "- Maintained Way4 core card, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrustructure and ensure PCI-DSS compliances",
                     "- Provided technical assistance to payment accountants, assisting with data exports from the database and resolving any related queries."
                 ],
@@ -77,7 +77,7 @@
                     "- ",
                     "- "
                 ],
-                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
+                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Java, Prometheus, Grafana, Loki, Mimir, PCI-DSS, ..."
             }
         },
         "project":[
@@ -115,7 +115,7 @@
         "phone": "0706987057",
         "note": "Truy cập responsive CV để có trải nghiệm tốt hơn",
         "social": ["Linkedin", "Github (hieunguyen810)"],
-        "profile": "Kỹ sư DevSecOps với 3.5 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
+        "profile": "Kỹ sư DevSecOps với 4 năm kinh nghiệm trong việc phát triển, triển khai, bảo trì và bảo mật ứng dụng web. Có kiến thức chuyên sâu về Operation và Networking. Kỹ năng trong việc phát triển ứng dụng web backend và an toàn thông tin.",
         "education": {
             "degree": "Kỹ sư điện tử viễn thông",
             "studies": "Đại học Bách Khoa Thành phố Hồ Chí Minh",
@@ -175,7 +175,7 @@
                     "- ",
                     "- "
                 ],
-                "tech": "CÔng nghệ: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
+                "tech": "CÔng nghệ: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Prometheus, Grafana, Loki, Mimir, Redis, Kafka, PCI-DSS, ..."
             }
         },
         "project":[
@@ -275,7 +275,7 @@
                     "- ",
                     "- "
                 ],
-                "tech": "テクノロジー: Kubernetes, ArgoCD, Oracle DB, Way4, Prometheus, Grafana, Mimir, Redis, Kafka, PCI-DSS, ..."
+                "tech": "テクノロジー: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Java, Prometheus, Grafana, Loki, Mimir, PCI-DSS, .."
             }
         },
         "project":[
