@@ -165,16 +165,16 @@ fetch("assets/data.json")
                 document.querySelector(".experience__tech_2").innerText = data[attr].experience.vts.tech
                 document.querySelector(".experience__detail_2").innerHTML = data[attr].experience.vts.detail.join("</br>")
 
-                document.querySelector(".experience__company_2").innerText = data[attr].experience.tma.time
-                document.querySelector(".experience__title_2").innerText = data[attr].experience.tma.title
-                document.querySelector(".experience__tech_2").innerText = data[attr].experience.tma.tech
-                document.querySelector(".experience__detail_2").innerHTML = data[attr].experience.tma.detail.join("</br>")
+                document.querySelector(".experience__company_3").innerText = data[attr].experience.tma.time
+                document.querySelector(".experience__title_3").innerText = data[attr].experience.tma.title
+                document.querySelector(".experience__tech_3").innerText = data[attr].experience.tma.tech
+                document.querySelector(".experience__detail_3").innerHTML = data[attr].experience.tma.detail.join("</br>")
 
                 // Experience Details
                 console.log(data[attr].experience.tma.more_detail   )
                 document.querySelector(".exp_detail_3").innerHTML = data[attr].experience.ocb.more_detail.join("</br>")
-                document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.vts.more_detail.join("</br>")
-                document.querySelector(".exp_detail_2").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
+                document.querySelector(".exp_detail_2").innerHTML = data[attr].experience.vts.more_detail.join("</br>")
+                document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
 
                 // Project
                 document.querySelector(".project-1").innerText = data[attr].project[0]
