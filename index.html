@@ -428,31 +428,33 @@
 
         <!-- User Onboarding -->
          <script>
-            introJs().setOptions({
-            showBullets: false,
-            steps: [
-            {
-                element: document.querySelector('.langWrap'),
-                intro: 'Click the flag to switch to your language',
-                position: 'bottom'
-            },
-            {
-                element: document.querySelector('#resume-button'),
-                intro: 'Download my resume in PDF',
-                position: 'bottom'
-            },
-            {
-                element: document.querySelector('#theme-button'),
-                intro: 'Swap light/dark theme',
-                position: 'bottom'
-            },
-            {
-                element: document.querySelector('#details'),
-                intro: 'Click to know my detailed experiences',
-                position: 'bottom'
-            }]
-            }).start();
-            localStorage.setItem('firstVisit', true);
+            if (!localStorage.getItem('firstVisit')) {
+                introJs().setOptions({
+                showBullets: false,
+                steps: [
+                {
+                    element: document.querySelector('.langWrap'),
+                    intro: 'Click the flag to switch to your language',
+                    position: 'bottom'
+                },
+                {
+                    element: document.querySelector('#resume-button'),
+                    intro: 'Download my resume in PDF',
+                    position: 'bottom'
+                },
+                {
+                    element: document.querySelector('#theme-button'),
+                    intro: 'Swap light/dark theme',
+                    position: 'bottom'
+                },
+                {
+                    element: document.querySelector('#details'),
+                    intro: 'Click to know my detailed experiences',
+                    position: 'bottom'
+                }]
+                }).start();
+                localStorage.setItem('firstVisit', true);
+            }
          </script>
     </body>
 </html>
