@@ -5,5 +5,6 @@ New features:
 - Supports 3 languages (language switching)
 - Isolate data from html
 - Details of experience section
+- User onboarding
 ## I hosted this at: 
 https://hieunguyen810.github.io/responsive-profile/
