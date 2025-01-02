@@ -1,8 +1,23 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+/* ==== USER ONBOARDING =====*/
+.introjs-tooltip {
+  background-color: #c4d3df; /* Màu nền */
+  color: #121599; /* Màu chữ */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.introjs-tooltiptext {
+  padding: 15px 20px;
+  font-size: 14px;
+  font-family: system-ui, sans-serif;
+  font-weight: normal;
+}
+
 /*===== VARIABLES CSS =====*/
-p, div
+p
 {
     display: inline;
 }

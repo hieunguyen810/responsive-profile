@@ -7,8 +7,10 @@
         <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js/minified/introjs.min.css">
         <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/7.2.0/intro.min.js"></script>
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -124,7 +126,7 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <div class="langWrap">
+                                <div class="langWrap" data-intro="Languages" data-step="1">
                                     <a href="#" language='english' class="active">
                                         <img src="assets/img/english.png" width="25" height="15">
                                     </a>
@@ -157,18 +159,18 @@
                                 </span>
                                 <span class="home_information">
                                     <i class='bx bx-briefcase-alt'></i>
-                                    <a href="https://hieunguyen810.github.io/3d-portfolio/">Portfolio https://hieunguyen810.github.io/3d-portfolio/</a>
+                                    <a href="https://hieunguyen810.github.io/3d-portfolio/">Portfolio</a>
                                 </span>
                                 <span class="home_information">
                                     <i class='bx bxs-file-doc'></i>
-                                    <a href="https://hieunguyen810.github.io/responsive-profile/">Resume https://hieunguyen810.github.io/responsive-profile/</a>
+                                    <a href="https://hieunguyen810.github.io/responsive-profile/">Resume</a>
                                 </span>
                             </div>
                         </div>
                         <!-- Theme change button -->
-                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button" data-intro="theme" data-step="3"></i>
 
-                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button" data-intro="download" data-step="2"></i>
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
@@ -330,7 +332,7 @@
                                 <!-- <p class="experience__description_1"></p>  -->
                                 <!-- <i class='bx bx-star'></i> -->
                                 <p class="experience__detail_1"></p>
-                                <details data-html2canvas-ignore="true">
+                                <details data-html2canvas-ignore="true" id="details", data-intro="detaild" data-step="4">
                                     <summary class="experience__detail_tag">Details</summary>
                                     <p class="exp_detail_1"></p>
                                 </details>
@@ -382,10 +384,10 @@
                         <div class="project__content">
                             <p>
                                 <span class="iconify" data-icon="carbon:course"></span>
-                                <div class="project-1"></div>
+                                <span class="project-1"></span>
                             </br>
                                 <span class="iconify" data-icon="carbon:course"></span>
-                                <div class="project-2"></div>
+                                <span class="project-2"></span>
                             </br>
                                 <i class='bx bxs-star'></i>
                                 <!-- <div class="project-3"></div> -->
@@ -423,5 +425,34 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+
+        <!-- User Onboarding -->
+         <script>
+            introJs().setOptions({
+            showBullets: false,
+            steps: [
+            {
+                element: document.querySelector('.langWrap'),
+                intro: 'Click the flag to switch to your language',
+                position: 'bottom'
+            },
+            {
+                element: document.querySelector('#resume-button'),
+                intro: 'Download my resume in PDF',
+                position: 'bottom'
+            },
+            {
+                element: document.querySelector('#theme-button'),
+                intro: 'Swap light/dark theme',
+                position: 'bottom'
+            },
+            {
+                element: document.querySelector('#details'),
+                intro: 'Click to know my detailed experiences',
+                position: 'bottom'
+            }]
+            }).start();
+            localStorage.setItem('firstVisit', true);
+         </script>
     </body>
 </html>
