@@ -18,7 +18,7 @@
         "email": "trihieu08101999@gmail.com",
         "phone": "0706987057",
         "note": "Visit my responsive profile for a better experience",
-        "profile": "Highly motivated DevSecOps Engineer with 4 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in Operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
+        "profile": "Highly motivated DevSecOps Engineer with 4 years of experience in developing, deploying, maintaining, and securing the application. Advanced knowledge in monitoring, operation systems and Networking, coupled with in-depth knowledge of backend development and cybersecurity. ",
         "education": {
             "degree": "Bachelor degree of Electronics and Telecommunications",
             "studies": "Hochiminh city university of technology (BKU)",
@@ -30,8 +30,8 @@
                 "time": "From 2-2021 to 4-2022 | TMA Solutions",
                 "detail": [
                     "- Provided outsourced software development services to leading American companies within the telecommunications industry.",
-                    "- Managed the software lifecycle for applications, including developing new versions, implementing feature enhancements, and delivering timely security patches.",
-                    "- Mastered server and software installation, including scripting automated processes for efficient configuration and deployment."
+                    "- Managed the software lifecycle for the VoIP applications written in C++ and Java, including developing new versions, implementing feature enhancements, and delivering timely security patches.",
+                    "- Demonstrated expertise in server installation and configuration within VMware vCloud environments, develop authentication function via LDAP, including scripting automated processes for efficient configuration and deployment."
                 ],
                 "more_detail": [
                     "- Working with VoIP platform systems, providing call processing functions, reporting, notification,...",
@@ -70,7 +70,7 @@
                 "detail": [
                     "- Managed and maintained the core card firmware. Deployed and configured Kubernetes clusters, implemented robust monitoring systems, streamlined infrastructure provisioning and incident response with ChatOps integration and GitOps pipelines",
                     "- Developed efficient PowerShell scripts to eliminate the need for 100% of manual daily tasks, improving operational efficiency and reducing manual errors.",
-                    "- Maintained Way4 Card Issuing platform, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrustructure and ensure PCI-DSS compliances",
+                    "- Maintained Way4 Card Issuing platform, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrastructure and ensure PCI-DSS compliances",
                     "- Provided technical assistance to payment accountants,..."
                 ],
                 "more_detail":[
