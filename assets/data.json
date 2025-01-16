@@ -68,16 +68,16 @@
                 "title": "DevOps Engineer",
                 "time": "From 6-2024 to present | Orient Commercial Joint Stock Bank", 
                 "detail": [
-                    "- Managed and maintained the core card firmware. Deployed and configured Kubernetes clusters, implemented robust monitoring systems, streamlined infrastructure provisioning and incident response with ChatOps integration and GitOps pipelines",
+                    "- Managed and maintained the Core Card firmware production environment. Deployed and configured Kubernetes clusters, implemented robust monitoring systems, streamlined infrastructure provisioning and incident response with ChatOps integration and GitOps pipelines.",
+                    "- Implement robust observation system to fully monitor infrastructure, payment transaction with Grafana Stack, custom script to expose metrics. Leading to completely remove disruption, reduce transaction timeout rate, identifying potential issues quicker.",
                     "- Developed efficient PowerShell scripts to eliminate the need for 100% of manual daily tasks, improving operational efficiency and reducing manual errors.",
-                    "- Maintained Way4 Card Issuing platform, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrastructure and ensure PCI-DSS compliances",
-                    "- Provided technical assistance to payment accountants,..."
+                    "- Maintained Way4 Card Issuing platform, collaborated with major payment networks (Mastercard, Visa, JCB, Napas) to enhance system functionality, upgrade infrastructure and ensure PCI-DSS compliances."
                 ],
                 "more_detail":[
                     "- ",
                     "- "
                 ],
-                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Java, Prometheus, Grafana, Loki, Mimir, PCI-DSS, ..."
+                "tech": "Technologies: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Java, Prometheus, Grafana Stack, PCI-DSS, ..."
             }
         },
         "project":[
@@ -175,7 +175,7 @@
                     "- ",
                     "- "
                 ],
-                "tech": "CÔng nghệ: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Prometheus, Grafana, Loki, Mimir, Redis, Kafka, PCI-DSS, ..."
+                "tech": "CÔng nghệ: Kubernetes, ArgoCD, Oracle DB, Openway Way4, Powershell, Python, Prometheus, Grafana Stack, Redis, Kafka, PCI-DSS, ..."
             }
         },
         "project":[
