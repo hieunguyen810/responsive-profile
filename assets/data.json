@@ -11,7 +11,8 @@
             "Experience",
             "Languages",
             "Personal Project and Courses",
-            "Social"
+            "Social",
+            "Certificates"
         ],
         "title":"DevSecOps Engineer",
         "address": "HCMC",
@@ -93,7 +94,19 @@
             "Kanji recognition [2022] [Python, Tkinter, Pyautogui, OpenCV, Sklearn]"
         ],
         "language": ["Vietnames", "English", "Japanese"],
-        "interest": ["Football", "Anime", "Cooking", "Reading"]
+        "interest": ["Football", "Anime", "Cooking", "Reading"],
+        "certificate": {
+            "cert1": {
+                "title": "Oracle Cloud Database Service 2025 Certified Professional",
+                "issuer": "Oracle",
+                "date": "2025"
+            },
+            "cert2": {
+                "title": "Oracle Cloud Infrastructure 2025 DevOps Professional",
+                "issuer": "Oracle",
+                "date": "2025"
+            }
+        }
     },
     "vietnamese":
     {
@@ -107,7 +120,8 @@
             "Kinh nghiệm",
             "Ngôn ngữ",
             "Project cá nhân và khóa học",
-            "Mạng xã hội"
+            "Mạng xã hội",
+            "Chứng chỉ"
         ],
         "title":"DevSecOps Engineer",
         "address": "HCMC",
@@ -192,7 +206,24 @@
             
         ],
         "language": ["Tiếng Việt", "Tiếng Anh", "Tiếng Nhật"],
-        "interest": ["Bóng đá", "Anime", "Nấu ăn", "Đọc sách"]
+        "interest": ["Bóng đá", "Anime", "Nấu ăn", "Đọc sách"],
+        "certificate": {
+            "cert1": {
+                "title": "AWS Cloud Practitioner",
+                "issuer": "Amazon Web Services",
+                "date": "2023"
+            },
+            "cert2": {
+                "title": "AWS SysOps Administrator",
+                "issuer": "Amazon Web Services",
+                "date": "2024"
+            },
+            "cert3": {
+                "title": "PCI-DSS Compliance",
+                "issuer": "Orient Commercial Bank",
+                "date": "2024"
+            }
+        }
     },
     "japanese":
     {
@@ -206,7 +237,8 @@
             "職歴", 
             "言語",
             "プロジェクト",
-            "ソーシャルメディア"
+            "ソーシャルメディア",
+            "証明書"
         ],
         "title":"ソフトウェア工学",
         "address": "HCMC",
@@ -290,7 +322,24 @@
             "PortSwigger vulnerability labs"
         ],
         "language": ["ベトナム語", "英語", "日本語"],
-        "interest": ["フットボール", "アニメ", "料理", "読書"]
+        "interest": ["フットボール", "アニメ", "料理", "読書"],
+        "certificate": {
+            "cert1": {
+                "title": "AWS Cloud Practitioner",
+                "issuer": "Amazon Web Services",
+                "date": "2023"
+            },
+            "cert2": {
+                "title": "AWS SysOps Administrator",
+                "issuer": "Amazon Web Services",
+                "date": "2024"
+            },
+            "cert3": {
+                "title": "PCI-DSS Compliance",
+                "issuer": "Orient Commercial Bank",
+                "date": "2024"
+            }
+        }
 
     }
 }

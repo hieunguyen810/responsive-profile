@@ -167,7 +167,8 @@ body.scale-cv{
 .scale-cv .section-title-skills,
 .scale-cv .section-title-project,
 .scale-cv .section-title-languages,
-.scale-cv .section-title-interests
+.scale-cv .section-title-interests,
+.scale-cv .section-title-certificate
 {
   margin-bottom: .75rem;
 }
@@ -278,7 +279,8 @@ img {
 .section-title-skills,
 .section-title-project,
 .section-title-languages,
-.section-title-interests {
+.section-title-interests,
+.section-title-certificate {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -527,7 +529,7 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 
 .skills__content{
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(2, 1fr)
 }
 
 .skills__content{
@@ -567,6 +569,40 @@ img {
   font-size: 1.2rem;
   color: var(--text-color-light);
   margin-bottom: .25rem;
+}
+
+/*========== CERTIFICATES ==========*/
+
+.certificate__container{
+  margin-bottom: var(--mb-2);
+}
+
+.certificate__content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.certificate__title_1,
+.certificate__title_2,
+.certificate__title_3{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.certificate__issuer_1,
+.certificate__issuer_2,
+.certificate__issuer_3{
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.certificate__date_1,
+.certificate__date_2,
+.certificate__date_3{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
 }
 /* Scroll top */
 
@@ -639,6 +675,7 @@ img {
 .section-title-project,
 .section-title-languages,
 .section-title-interests,
+.section-title-certificate,
 .profile__description{
   text-align: initial;
 }

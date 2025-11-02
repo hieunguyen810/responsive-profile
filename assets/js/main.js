@@ -154,6 +154,17 @@ fetch("assets/data.json")
                 document.querySelector(".section-title-languages").innerText = data[attr].item[5]
                 document.querySelector(".section-title-project").innerText = data[attr].item[6]
                 document.querySelector(".section-title-social").innerText = data[attr].item[7]
+                document.querySelector(".section-title-certificate").innerText = data[attr].item[8]
+                // Certificates
+                document.querySelector(".certificate__title_1").innerText = data[attr].certificate.cert1.title
+                document.querySelector(".certificate__issuer_1").innerText = data[attr].certificate.cert1.issuer
+                document.querySelector(".certificate__date_1").innerText = data[attr].certificate.cert1.date
+                document.querySelector(".certificate__title_2").innerText = data[attr].certificate.cert2.title
+                document.querySelector(".certificate__issuer_2").innerText = data[attr].certificate.cert2.issuer
+                document.querySelector(".certificate__date_2").innerText = data[attr].certificate.cert2.date
+                document.querySelector(".certificate__title_3").innerText = data[attr].certificate.cert3.title
+                document.querySelector(".certificate__issuer_3").innerText = data[attr].certificate.cert3.issuer
+                document.querySelector(".certificate__date_3").innerText = data[attr].certificate.cert3.date
                 // Experiece
                 document.querySelector(".experience__company_1").innerText = data[attr].experience.ocb.time
                 document.querySelector(".experience__tech_1").innerText = data[attr].experience.ocb.tech
@@ -177,17 +188,17 @@ fetch("assets/data.json")
                 document.querySelector(".exp_detail_1").innerHTML = data[attr].experience.tma.more_detail.join("</br>")
 
                 // Project
-                document.querySelector(".project-1").innerText = data[attr].project[0]
-                document.querySelector(".project-2").innerText = data[attr].project[1]
-                document.querySelector(".project-3").innerText = data[attr].project[2]
-                document.querySelector(".project-4").innerText = data[attr].project[3]
-                document.querySelector(".project-5").innerText = data[attr].project[4]
-                document.querySelector(".project-6").innerText = data[attr].project[6]
-                document.querySelector(".project-7").innerText = data[attr].project[7]
+                // document.querySelector(".project-1").innerText = data[attr].project[0]
+                // document.querySelector(".project-2").innerText = data[attr].project[1]
+                // document.querySelector(".project-3").innerText = data[attr].project[2]
+                // document.querySelector(".project-4").innerText = data[attr].project[3]
+                // document.querySelector(".project-5").innerText = data[attr].project[4]
+                // document.querySelector(".project-6").innerText = data[attr].project[6]
+                // document.querySelector(".project-7").innerText = data[attr].project[7]
                 // Languages
-                document.querySelector(".languages__circle_1").innerText = data[attr].language[0]
-                document.querySelector(".languages__circle_2").innerText = data[attr].language[1]
-                document.querySelector(".languages__circle_3").innerText = data[attr].language[2]
+                // document.querySelector(".languages__circle_1").innerText = data[attr].language[0]
+                // document.querySelector(".languages__circle_2").innerText = data[attr].language[1]
+                // document.querySelector(".languages__circle_3").innerText = data[attr].language[2]
                 // Interests
                 document.querySelector(".interests__name_1").innerText = data[attr].interest[0]
                 document.querySelector(".interests__name_2").innerText = data[attr].interest[1]

@@ -56,9 +56,20 @@
                     document.querySelector(".section-title-education").innerText = data.english.item[2]
                     document.querySelector(".section-title-skills").innerText = data.english.item[3]
                     document.querySelector(".section-title-experience").innerText = data.english.item[4]
-                    document.querySelector(".section-title-languages").innerText = data.english.item[5]
-                    document.querySelector(".section-title-project").innerText = data.english.item[6]
+                    // document.querySelector(".section-title-languages").innerText = data.english.item[5]
+                    // document.querySelector(".section-title-project").innerText = data.english.item[6]
                     document.querySelector(".section-title-social").innerText = data.english.item[7]
+                    document.querySelector(".section-title-certificate").innerText = data.english.item[8]
+                    // Certificates
+                    document.querySelector(".certificate__title_1").innerText = data.english.certificate.cert1.title
+                    document.querySelector(".certificate__issuer_1").innerText = data.english.certificate.cert1.issuer
+                    document.querySelector(".certificate__date_1").innerText = data.english.certificate.cert1.date
+                    document.querySelector(".certificate__title_2").innerText = data.english.certificate.cert2.title
+                    document.querySelector(".certificate__issuer_2").innerText = data.english.certificate.cert2.issuer
+                    document.querySelector(".certificate__date_2").innerText = data.english.certificate.cert2.date
+                    document.querySelector(".certificate__title_3").innerText = data.english.certificate.cert3.title
+                    document.querySelector(".certificate__issuer_3").innerText = data.english.certificate.cert3.issuer
+                    document.querySelector(".certificate__date_3").innerText = data.english.certificate.cert3.date
                     // Project 
                     document.querySelector(".project-1").innerText = data.english.project[0]
                     document.querySelector(".project-2").innerText = data.english.project[1]
@@ -108,6 +119,11 @@
                         <li class="nav__item">
                             <a href="#experience" class="nav__link">
                                 <i class='bx bx-briefcase-alt'></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificate" class="nav__link">
+                                <i class='bx bx-award'></i>Certificates
                             </a>
                         </li>
                     </ul>
@@ -224,6 +240,8 @@
                                             <span class="iconify" data-icon="vscode-icons:file-type-python"></span>
                                             <span class="skills_circle">&nbsp; Python</span>
                                         </li>
+                                    </ul>
+                                    <ul class="skills__data">
                                         <li class="skills__name">
                                             <span class="iconify" data-icon="logos:linux-tux"></span>
                                             <span class="skills_circle">&nbsp; Linux</span>
@@ -238,14 +256,12 @@
                                             <span class="iconify" data-icon="cib:spring"></span>
                                             <span class="skills_circle">&nbsp; Spring Boot</span>
                                         </li>
-                                        <!-- <li class="skills__name">
-                                            <span class="iconify" data-icon="logos:tensorflow"></span>
-                                            <span class="skills_circle">&nbsp; Tensorflow</span>
-                                        </li> -->
                                         <li class="skills__name">
                                             <span class="iconify" data-icon="devicon:openstack"></span>
                                             <span class="skills_circle">&nbsp; Openstack</span>
                                         </li>
+                                    </ul>
+                                    <ul class="skills__data">
                                         <li class="skills__name">
                                             <i class='bx bx-bug'></i>
                                             <span class="skills_circle">&nbsp; Security</span>
@@ -264,6 +280,8 @@
                                             <span class="iconify" data-icon="devicon:argocd"></span>
                                             <span class="skills_circle">&nbsp; ArgoCD</span>
                                         </li>
+                                    </ul>
+                                    <ul class="skills__data">
                                         <li class="skills__name">
                                             <span class="iconify" data-icon="mdi:local-area-network"></span>
                                             <span class="skills_circle">&nbsp; Network</span>
@@ -299,7 +317,7 @@
                         </div>
                     </section> -->
                     <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
+                    <!--<section class="languages section">
                         <h2 class="section-title-languages"></h2>
 
                         <ul class="languages__content bd-grid">
@@ -313,7 +331,7 @@
                                 <span class="languages__circle_3"></span>
                             </l1>
                         </ul>
-                    </section>
+                    </section>-->
                 </div>
 
                 <div class="resume__right">
@@ -378,8 +396,34 @@
                             </div>
                         </div>
                     </section>
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificate">
+                        <h2 class="section-title-certificate"></h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title_1"></h3>
+                                <span class="certificate__issuer_1"></span>
+                                <span class="certificate__date_1"></span>
+                            </div>
+                        </div>
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title_2"></h3>
+                                <span class="certificate__issuer_2"></span>
+                                <span class="certificate__date_2"></span>
+                            </div>
+                        </div>
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title_3"></h3>
+                                <span class="certificate__issuer_3"></span>
+                                <span class="certificate__date_3"></span>
+                            </div>
+                        </div>
+                    </section>
                     <!--========== PERSONAL PROJECT ==========-->
-                    <section class="project section">
+                    <!-- <section class="project section">
                         <h2 class="section-title-project"></h2>
                         <div class="project__content">
                             <p>
@@ -390,27 +434,22 @@
                                 <span class="project-2"></span>
                             </br>
                                 <i class='bx bxs-star'></i>
-                                <!-- <div class="project-3"></div> -->
                                 <a href="https://github.com/hieunguyen810/responsive-profile" target="_blank" class="project-3"></a>
                             </br>
                                 <i class='bx bxs-star'></i>
-                                <!-- <div class="project-4"></div> -->
                                 <a href="https://github.com/hieunguyen810/VLC_demodulation" target="_blank" class="project-4"></a>
                             </br>
                                 <i class='bx bxs-star'></i>
-                                <!-- <div class="project-5"></div> -->
                                 <a href="https://github.com/hieunguyen810/kanji_recognizer_linux" target="_blank" class="project-5"></a>
                             </br>
                                 <i class='bx bxs-star'></i>
-                                <!-- <div class="project-6"></div> -->
                                 <a href="https://github.com/hieunguyen810/cheatsheet" target="_blank" class="project-6"></a>
                             </br>
                                 <i class='bx bxs-star'></i>
-                                <!-- <div class="project-7"></div> -->
                                 <a href="https://github.com/hieunguyen810/3d-portfolio" target="_blank" class="project-7"></a>
                             </p>
                         </div>
-                    </section>
+                    </section> -->
                 </div>
             </div>        
         </main>
