@@ -209,19 +209,14 @@
         "interest": ["Bóng đá", "Anime", "Nấu ăn", "Đọc sách"],
         "certificate": {
             "cert1": {
-                "title": "AWS Cloud Practitioner",
-                "issuer": "Amazon Web Services",
-                "date": "2023"
+                "title": "Oracle Cloud Database Service 2025 Certified Professional",
+                "issuer": "Oracle",
+                "date": "2025"
             },
             "cert2": {
-                "title": "AWS SysOps Administrator",
-                "issuer": "Amazon Web Services",
-                "date": "2024"
-            },
-            "cert3": {
-                "title": "PCI-DSS Compliance",
-                "issuer": "Orient Commercial Bank",
-                "date": "2024"
+                "title": "Oracle Cloud Infrastructure 2025 DevOps Professional",
+                "issuer": "Oracle",
+                "date": "2025"
             }
         }
     },
@@ -325,21 +320,15 @@
         "interest": ["フットボール", "アニメ", "料理", "読書"],
         "certificate": {
             "cert1": {
-                "title": "AWS Cloud Practitioner",
-                "issuer": "Amazon Web Services",
-                "date": "2023"
+                "title": "Oracle Cloud Database Service 2025 Certified Professional",
+                "issuer": "Oracle",
+                "date": "2025"
             },
             "cert2": {
-                "title": "AWS SysOps Administrator",
-                "issuer": "Amazon Web Services",
-                "date": "2024"
-            },
-            "cert3": {
-                "title": "PCI-DSS Compliance",
-                "issuer": "Orient Commercial Bank",
-                "date": "2024"
+                "title": "Oracle Cloud Infrastructure 2025 DevOps Professional",
+                "issuer": "Oracle",
+                "date": "2025"
             }
         }
-
     }
 }

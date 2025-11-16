@@ -151,8 +151,8 @@ fetch("assets/data.json")
                 document.querySelector(".section-title-education").innerText = data[attr].item[2]
                 document.querySelector(".section-title-skills").innerText = data[attr].item[3]
                 document.querySelector(".section-title-experience").innerText = data[attr].item[4]
-                document.querySelector(".section-title-languages").innerText = data[attr].item[5]
-                document.querySelector(".section-title-project").innerText = data[attr].item[6]
+                // document.querySelector(".section-title-languages").innerText = data[attr].item[5]
+                // document.querySelector(".section-title-project").innerText = data[attr].item[6]
                 document.querySelector(".section-title-social").innerText = data[attr].item[7]
                 document.querySelector(".section-title-certificate").innerText = data[attr].item[8]
                 // Certificates
@@ -162,9 +162,9 @@ fetch("assets/data.json")
                 document.querySelector(".certificate__title_2").innerText = data[attr].certificate.cert2.title
                 document.querySelector(".certificate__issuer_2").innerText = data[attr].certificate.cert2.issuer
                 document.querySelector(".certificate__date_2").innerText = data[attr].certificate.cert2.date
-                document.querySelector(".certificate__title_3").innerText = data[attr].certificate.cert3.title
-                document.querySelector(".certificate__issuer_3").innerText = data[attr].certificate.cert3.issuer
-                document.querySelector(".certificate__date_3").innerText = data[attr].certificate.cert3.date
+                // document.querySelector(".certificate__title_3").innerText = data[attr].certificate.cert3.title
+                // document.querySelector(".certificate__issuer_3").innerText = data[attr].certificate.cert3.issuer
+                // document.querySelector(".certificate__date_3").innerText = data[attr].certificate.cert3.date
                 // Experiece
                 document.querySelector(".experience__company_1").innerText = data[attr].experience.ocb.time
                 document.querySelector(".experience__tech_1").innerText = data[attr].experience.ocb.tech
@@ -200,10 +200,10 @@ fetch("assets/data.json")
                 // document.querySelector(".languages__circle_2").innerText = data[attr].language[1]
                 // document.querySelector(".languages__circle_3").innerText = data[attr].language[2]
                 // Interests
-                document.querySelector(".interests__name_1").innerText = data[attr].interest[0]
-                document.querySelector(".interests__name_2").innerText = data[attr].interest[1]
-                document.querySelector(".interests__name_3").innerText = data[attr].interest[2]
-                document.querySelector(".interests__name_4").innerText = data[attr].interest[3]
+                // document.querySelector(".interests__name_1").innerText = data[attr].interest[0]
+                // document.querySelector(".interests__name_2").innerText = data[attr].interest[1]
+                // document.querySelector(".interests__name_3").innerText = data[attr].interest[2]
+                // document.querySelector(".interests__name_4").innerText = data[attr].interest[3]
             })
         }
             )
